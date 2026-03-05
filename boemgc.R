@@ -461,7 +461,7 @@ ggsave("diet_by_region.png", p5, width = 14, height = 10, dpi = 300)
 
 
 # ============================================================
-# 13. EXPORT
+# 13. export
 # ============================================================
 write_csv(df_clean,       "boem_gut_content_cleaned.csv")
 write_csv(foo,            "FOO_summary.csv")
@@ -470,6 +470,9 @@ write_csv(weight_summary, "weight_summary.csv")
 
 cat("\nDone! Output files written to working directory.\n")
 
+# ============================================================
+# 14. analyses
+# ============================================================
 
 # install if needed
 install.packages("vegan")
@@ -498,7 +501,9 @@ adonis2(prey_cols ~ fish_species, data = prey_matrix, permutations = 999)
 # PERMANOVA: does diet differ by region (East vs West)?
 adonis2(prey_cols ~ region, data = prey_matrix %>% filter(!is.na(region)), 
         permutations = 999)
+
 # Get NMDS scores and add species/region back
+nmds <- metaMDS(prey_cols, distance = "bray", k = 2, trymax = 100)
 nmds_scores <- as.data.frame(scores(nmds, display = "sites"))
 
 # Bind with the metadata columns from prey_matrix
