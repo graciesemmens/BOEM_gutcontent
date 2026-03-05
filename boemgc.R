@@ -229,7 +229,7 @@ df_clean <- df_clean %>%
 
 
 # ============================================================
-# 9. FREQUENCY OF OCCURRENCE (FOO) - ALL PREY
+# 9. FREQUENCY OF OCCURRENCE (FOO) - all prey
 #
 # FOO = the % of individual fish stomachs containing each prey
 # This is the most robust diet metric when weights are uncertain
@@ -268,7 +268,7 @@ print(foo, n = 60, width = Inf)
 
 
 # ============================================================
-# 10. FOO - IDENTIFIABLE PREY ONLY
+# 10. FOO - identifiable prey only
 #
 # Same as above but excluding:
 #   - Unidentifiable Mush (too degraded)
@@ -300,7 +300,7 @@ print(foo_id, n = 60, width = Inf)
 
 
 # ============================================================
-# 11. PREY WEIGHT SUMMARY BY SPECIES + CATEGORY
+# 11. prey weight by species summary
 # ============================================================
 weight_summary <- df_clean %>%
   filter(has_weight, !is.na(prey_category_clean)) %>%
@@ -318,7 +318,7 @@ print(weight_summary, n = 60, width = Inf)
 
 
 # ============================================================
-# 12. PLOTS
+# 12. plots and things
 # ============================================================
 
 prey_colors <- c(
