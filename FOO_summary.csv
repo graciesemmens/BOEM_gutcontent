@@ -1,0 +1,50 @@
+fish_species,prey_cats,n_stomachs_with_prey,n_stomachs_total,FOO_percent
+Atlantic Bumper,unidentifiable mush,81,98,82.6530612244898
+Atlantic Bumper,biomatter,13,98,13.26530612244898
+Atlantic Bumper,crustacean,6,98,6.122448979591836
+Atlantic Bumper,detritus,2,98,2.0408163265306123
+Atlantic Bumper,anchovy,1,98,1.0204081632653061
+Atlantic Croaker,unidentifiable mush,110,168,65.47619047619048
+Atlantic Croaker,biomatter,39,168,23.214285714285715
+Atlantic Croaker,crustacean,21,168,12.5
+Atlantic Croaker,polychaete,13,168,7.738095238095238
+Atlantic Croaker,mollusca,5,168,2.976190476190476
+Atlantic Croaker,anchovy,3,168,1.7857142857142856
+Atlantic Croaker,detritus,2,168,1.1904761904761905
+Lizardfish,unidentifiable mush,5,14,35.714285714285715
+Lizardfish,biomatter,3,14,21.428571428571427
+Lizardfish,crustacean,3,14,21.428571428571427
+Lizardfish,anchovy,2,14,14.285714285714285
+Lizardfish,unidentifiable fish,1,14,7.142857142857142
+Moonfish,biomatter,37,83,44.57831325301205
+Moonfish,unidentifiable mush,29,83,34.93975903614458
+Moonfish,crustacean,20,83,24.096385542168676
+Moonfish,detritus,1,83,1.2048192771084338
+Pigfish,unidentifiable mush,9,13,69.23076923076923
+Pigfish,biomatter,3,13,23.076923076923077
+Pigfish,crustacean,1,13,7.6923076923076925
+Pigfish,mollusca,1,13,7.6923076923076925
+Pinfish,unidentifiable mush,91,191,47.64397905759162
+Pinfish,biomatter,79,191,41.361256544502616
+Pinfish,detritus,15,191,7.853403141361256
+Pinfish,mollusca,13,191,6.806282722513089
+Pinfish,crustacean,12,191,6.282722513089005
+Pinfish,anchovy,5,191,2.6178010471204187
+Pinfish,polychaete,4,191,2.094240837696335
+Pinfish,echinoderm,2,191,1.0471204188481675
+Spot,unidentifiable mush,64,108,59.25925925925925
+Spot,detritus,32,108,29.629629629629626
+Spot,biomatter,11,108,10.185185185185185
+Spot,crustacean,3,108,2.7777777777777777
+Spot,mollusca,1,108,0.9259259259259258
+Striped Anchovy,unidentifiable mush,152,168,90.47619047619048
+Striped Anchovy,biomatter,12,168,7.142857142857142
+Striped Anchovy,crustacean,3,168,1.7857142857142856
+Striped Anchovy,detritus,1,168,0.5952380952380952
+Thread Herring,unidentifiable mush,99,102,97.05882352941177
+Thread Herring,anchovy,1,102,0.9803921568627451
+Thread Herring,biomatter,1,102,0.9803921568627451
+Thread Herring,detritus,1,102,0.9803921568627451
+Weakfish,unidentifiable mush,11,20,55.00000000000001
+Weakfish,biomatter,9,20,45
+Weakfish,anchovy,2,20,10

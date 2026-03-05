@@ -1,0 +1,1043 @@
+project,dissection_date,dissector,fish_species,fish_id,stomach_id,site,collection_date,prey_common_name,prey_wet_weight,prey_category,n_prey,prey_condition,notes,stomach_id_base,prey_wet_weight_g,prey_category_clean,has_weight,region,position,station
+BOEM,45548,Dannette,Thread Herring,THH013,THH013gc,EI2,45516,anchovy,3.8,anchovy,11,3-4,good,THH013gc,3.8,anchovy,TRUE,East,Inner,2
+BOEM,45559,Dannette,Pinfish,PIN039,PIN039gc,WO1,45435,snails,2,mollusca,20+,,,PIN039gc,2,mollusca,TRUE,West,Outer,1
+BOEM,45569,Dannette,Pinfish,PIN072,PIN072gc,EI2,45434,biomatter,1.3,biomatter,,larvae?,,PIN072gc,1.3,biomatter,TRUE,East,Inner,2
+BOEM,45572,EG,Pinfish,PIN079,PIN079gc,WI2,45517,anchovy,2.72,anchovy,8,,,PIN079gc,2.72,anchovy,TRUE,West,Inner,2
+BOEM,45573,Dannette,Pinfish,PIN082,PIN082gc1,WO1,45517,shell,>0.1,mollusca,1,4,grouped with below made new ID for shell,PIN082gc,0.1,mollusca,TRUE,West,Outer,1
+BOEM,45573,Dannette,Pinfish,PIN082,PIN082gc2,WO1,45517,anchovy,1.1,anchovy,3,4,2 striped anchoy 1 shell,PIN082gc,1.1,anchovy,TRUE,West,Outer,1
+BOEM,45573,Dannette,Pinfish,PIN086,PIN086gc,WO1,45517,anchovy,1.2,anchovy,2,,2 sta heads,PIN086gc,1.2,anchovy,TRUE,West,Outer,1
+BOEM,45573,Lindsey,Pinfish,PIN090,PIN090gc,WO1,45517,anchovy,0.9,anchovy,2,,2 sta,PIN090gc,0.9,anchovy,TRUE,West,Outer,1
+BOEM,45601,Lindsey,Pinfish,PIN100,PIN100gc,EI1,45434,mush,1.4,unidentifiable mush,- ,,,PIN100gc,1.4,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45604,Dannette,Pinfish,PIN101,PIN100gc,EI1,45434,mush,0.1,unidentifiable mush,- ,,,PIN100gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45604,Dannette,Pinfish,PIN102,PIN100gc,EI1,45434,mush,0.4,unidentifiable mush,- ,,,PIN100gc,0.4,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45604,Dannette,Pinfish,PIN103,PIN100gc,EI1,45434,mush,0.6,unidentifiable mush,- ,,,PIN100gc,0.6,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45604,Dannette,Pinfish,PIN104,PIN100gc,EI1,45434,mush,0.7,unidentifiable mush,- ,,,PIN100gc,0.7,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45604,Dannette,Pinfish,PIN105,PIN100gc,EI1,45434,mush,0.4,unidentifiable mush,- ,,,PIN100gc,0.4,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45607,EG,Atlantic Bumper,ATB002,ATB002gc,EI1,45434,mush,0.3,unidentifiable mush,- ,,,ATB002gc,0.3,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45607,EG,Atlantic Bumper,ATB003,ATB003gc,EI1,45434,mush,0.2,unidentifiable mush,- ,,,ATB003gc,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45607,EG,Atlantic Bumper,ATB004,ATB004gc,EI1,45434,mush,0.4,unidentifiable mush,- ,,,ATB004gc,0.4,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45607,EG,Atlantic Bumper,ATB005,ATB005gc,EI1,45434,mush,0.4,biomatter,- ,,,ATB005gc,0.4,biomatter,TRUE,East,Inner,1
+BOEM,45608,Dannette,Pinfish,PIN106,PIN106gc,EO1,45516,mush,0.4,unidentifiable mush,- ,1,,PIN106gc,0.4,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45608,Dannette,Pinfish,PIN108,PIN108gc1,EO1,45516,mush,0.1,unidentifiable mush,- ,1,,PIN108gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45608,Dannette,Pinfish,PIN108,PIN108gc2,EO1,45516,unknown,0.2,detritus,,2,solid,PIN108gc,0.2,detritus,TRUE,East,Outer,1
+BOEM,45608,Dannette,Pinfish,PIN110,PIN110gc,EO1,45516,biomatter,0.8,biomatter,,2,larvae?,PIN110gc,0.8,biomatter,TRUE,East,Outer,1
+BOEM,45608,Lindsey,Pinfish,PIN107,PIN107gc,EO1,45516,mush,0.3,unidentifiable mush,-,1,,PIN107gc,0.3,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45608,Lindsey,Pinfish,PIN109,PIN109gc,EO1,45516,mush,<0.1,unidentifiable mush,-,1,,PIN109gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45608,Lindsey,Pinfish,PIN111,PIN111gc,EO1,45516,mush,0.2,unidentifiable mush,-,1,,PIN111gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45608,Lindsey,Atlantic Bumper,ATB006,ATB006gc,EO1,45517,anchovy,1.2,striped anchovy,3,3,good,ATB006gc,1.2,anchovy,TRUE,East,Outer,1
+BOEM,45608,Lindsey,Atlantic Bumper,ATB006,ATB006gc,EO1,45516,mush,0.6,unidentifiable mush,- ,1,,ATB006gc,0.6,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45611,Dannette,Atlantic Bumper,ATB007,ATB007gc,EO1,45516,mush,0.1,unidentifiable mush,- ,1,,ATB007gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45611,Dannette,Atlantic Bumper,ATB008,ATB008gc,WO3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB008gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,Dannette,Atlantic Bumper,ATB010,ATB010gc,WO3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB010gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,Dannette,Atlantic Bumper,ATB011,ATB011gc,WO3,45517,mush,0.2,unidentifiable mush,- ,1,,ATB011gc,0.2,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,Dannette,Atlantic Bumper,ATB013,ATB013gc,WO3,45517,mush,<0.1,unidentifiable mush,- ,1,,ATB013gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,Dannette,Atlantic Bumper,ATB015,ATB015gc,WO3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB015gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,EG,Atlantic Bumper,ATB009,ATB009gc,WO3,45517,mush,0.7,unidentifiable mush,- ,1,,ATB009gc,0.7,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,EG,Atlantic Bumper,ATB012,ATB012gc,WO3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB012gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,EG,Atlantic Bumper,ATB014,ATB014gc,WO3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB014gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,EG,Atlantic Bumper,ATB016,ATB016gc,WO3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB016gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45611,EG,Atlantic Bumper,ATB017,ATB017gc,WI3,45517,mush,0.1,unidentifiable mush,- ,1,,ATB017gc,0.1,unidentifiable mush,TRUE,West,Inner,3
+BOEM,45611,EG,Thread Herring,THH029,THH029gc,WI3,45517,mush,0.2,unidentifiable mush,- ,1,,THH029gc,0.2,unidentifiable mush,TRUE,West,Inner,3
+BOEM,45614,EG,Atlantic Bumper,ATB018,ATB018gc,WI2,45516,mush,<0.1,unidentifiable mush,- ,1,,ATB018gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45614,EG,Atlantic Bumper,ATB019,ATB019gc,WI2,45516,mush,<0.1,unidentifiable mush,- ,1,,ATB019gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45614,EG,Atlantic Bumper,ATB020,ATB020gc,WI2,45516,mush,<0.1,unidentifiable mush,- ,1,,ATB020gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45614,EG,Moonfish,MOF001,MOF001gc,WI2,45516,mush,0.2,unidentifiable mush,- ,1,,MOF001gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45615,Dannette,Spot,SPO001,SPO001gc,WI2,45517,mush,0.6,unidentifiable mush,- ,1,,SPO001gc,0.6,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45615,Dannette,Spot,SPO002,SPO002gc,WI2,45517,mush,0.1,unidentifiable mush,,1,,SPO002gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45615,Dannette,Atlantic Bumper,ATB022,ATB022gc,WO2,45604,mush,0.1,unidentifiable mush,- ,1,,ATB022gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45615,Dannette,Spot,SPO005,SPO005gc,EI2,45434,mush,<0.1,unidentifiable mush,- ,1,,SPO005gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45615,Dannette,Spot,SPO006,SPO006gc,EI2,45434,mush,0.3,unidentifiable mush,- ,1,,SPO006gc,0.3,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45615,Lindsey,Atlantic Bumper,ATB021,ATB021gc,WI2,45517,mush,0.1,unidentifiable mush,- ,1,,ATB021gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45615,Lindsey,Spot,SPO003,SPO003gc,EI2,45434,mush,0.1,unidentifiable mush,- ,1,,SPO003gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45615,Lindsey,Spot,SPO004,SPO004gc,EI2,45434,mush,<0.1,unidentifiable mush,- ,1,,SPO004gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45615,Lindsey,Spot,SPO007,SPO007gc,EI2,45434,mush,<0.1,unidentifiable mush,- ,1,,SPO007gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45615,Lindsey,Spot,SPO008,SPO008gc,EI2,45434,mush,0.1,unidentifiable mush,- ,1,,SPO008gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45618,Dannette,Spot,SPO020,SPO020gc,EI1,45434,biomatter,0.1,biomatter,1,3,larvae? yes probably a striped anchovy baby ,SPO020gc,0.1,biomatter,TRUE,East,Inner,1
+BOEM,45618,EG,Spot,SPO019,SPO019gc,EI1,45434,mush,<0.1,unidentifiable mush,- ,1,,SPO019gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45618,EG,Spot,SPO024,SPO024gc,WO2,45604,mush,<0.1,unidentifiable mush,- ,1,,SPO024gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45628,EG,Spot,SPO025,SPO025gc,WO2,45604,mush,0.1,unidentifiable mush,- ,1,,SPO025gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45629,Dannette,Spot,SPO036,SPO036gc,EO3,45629,mush,<0.1,unidentifiable mush,- ,1,,SPO036gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45636,Sam,Spot,SPO046,SPO046gc,WI1,45604,mush,0.2,unidentifiable mush,- ,1,,SPO046gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45637,Sam,Spot,SPO048,SPO048gc,WI1,45517,shrimp?,<0.1,crustacean,3,2,,SPO048gc,0.05,crustacean,TRUE,West,Inner,1
+BOEM,45637,Sam,Spot,SPO051,SPO051gc,WI1,45517,mush,<0.1,unidentifiable mush,- ,1,,SPO051gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45642,Sam,Atlantic Croaker,CRO001,CRO001g1,WO2,45517,crab,<0.1,crustacean,1,3,,CRO001g,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45642,Sam,Atlantic Croaker,CRO001,CRO001g2,WO2,45517,crustacean,0.2,crustacean,- ,1,Dr. Posey approved,CRO001g,0.2,crustacean,TRUE,West,Outer,2
+BOEM,45642,Sam,Moonfish,MOF003,MOF003gc,WO2,45435,biomatter,0.2,biomatter,- ,1,"larvae? no i dont think so, maybe some mysid but hard to tell ",MOF003gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45642,Sam,Moonfish,MOF004,MOF004g1,WO2,45435,biomatter,<0.1,biomatter,- ,2,larvae? mysid ,MOF004g,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45642,Sam,Moonfish,MOF004,MOF004g2,WO2,45435,biomatter,0.2,biomatter,- ,1,fish? striped anchovy muscle ,MOF004g,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45642,Sam,Moonfish,MOF005,MOF005gc,WO2,45435,biomatter,0.2,biomatter,- ,1,larvae?,MOF005gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45643,Sam,Moonfish,MOF007,MOF007gc,WO2,45435,biomatter,0.1,biomatter,- ,1,larvae?,MOF007gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45643,Sam,Moonfish,MOF008,MOF008gc,WO2,45435,mush,<0.1,biomatter,- ,1,,MOF008gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45643,Sam,Moonfish,MOF009,MOF009gc,WO2,45435,biomatter,0.1,biomatter,- ,1,larvae? --> needs to be seperated ,MOF009gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45643,Sam,Moonfish,MOF010,MOF010gc,WO2,45435,biomatter,0.2,biomatter,- ,1,larvae?,MOF010gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45643,Sam,Moonfish,MOF011,MOF011gc,WO2,45435,mush,0.1,detritus,- ,1,,MOF011gc,0.1,detritus,TRUE,West,Outer,2
+BOEM,45643,Sam,Moonfish,MOF012,MOF012g1,WO3,45517,shrimp,0.2,crustacean,7,4,shrimps ,MOF012g,0.2,crustacean,TRUE,West,Outer,3
+BOEM,45643,Sam,Moonfish,MOF012,MOF012g2,WO3,45517,biomatter,0.1,biomatter,- ,1,larvae?,MOF012g,0.1,biomatter,TRUE,West,Outer,3
+BOEM,45643,Sam,Moonfish,MOF013,MOF013gc,EI1,45434,biomatter,1.3,biomatter,- ,1,larvae?,MOF013gc,1.3,biomatter,TRUE,East,Inner,1
+BOEM,45644,Sam,Spot,SPO064,SPO064g1,WO1,45604,shrimp,<0.1,crustacean,3,3,,SPO064g,0.05,crustacean,TRUE,West,Outer,1
+BOEM,45644,Sam,Spot,SPO064,SPO064g2,WO1,45604,mush,0.2,biomatter,- ,1,,SPO064g,0.2,biomatter,TRUE,West,Outer,1
+BOEM,45644,Sam,Atlantic Bumper,ATB024,ATB024gc,EI2,45597,shrimp larvae,0.1,crustacean,>20,3,,ATB024gc,0.1,crustacean,TRUE,East,Inner,2
+BOEM,45644,Sam,Atlantic Bumper,ATB025,ATB025gc,EI2,45597,shrimp larvae,0.2,crustacean,>10,3,,ATB025gc,0.2,crustacean,TRUE,East,Inner,2
+BOEM,45663,Sam,Pinfish,PIN112,PIN112gc,WO1,45604,mush,0.1,unidentifiable mush,- ,1,,PIN112gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Sam,Pinfish,PIN113,PIN113gc,WO1,45604,mush,0.4,unidentifiable mush,- ,1,sand?,PIN113gc,0.4,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN114,PIN114gc,WO1,45604,mush,0.1,unidentifiable mush,- ,1,,PIN114gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Sam,Pinfish,PIN115,PIN115gc,WO1,45604,mush,0.4,unidentifiable mush,- ,1,,PIN115gc,0.4,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN116,PIN116g1,WO1,45604,mush,0.1,unidentifiable mush,- ,1,"detritus? biomatter? bad photo, defrost and assess ",PIN116g,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN116,PIN116g2,WO1,45604,clam,<0.1,mollusc,1,4,,PIN116g,0.05,mollusca,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN116,PIN116g3,WO1,45604,sea star,<0.1,echinoderm,1,3,,PIN116g,0.05,echinoderm,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN117,PIN117g1,WO1,45604,mush,0.5,unidentifiable mush,-,1,,PIN117g,0.5,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN117,PIN117g2,WO1,45604,crab,0.3,crustacean,2,3,,PIN117g,0.3,crustacean,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN117,PIN117g3,WO1,45604,hermit crab,<0.1,crustacean,1,4,,PIN117g,0.05,crustacean,TRUE,West,Outer,1
+BOEM,45663,Sam,Pinfish,PIN118,PIN118gc,WO1,45604,mush,0.2,unidentifiable mush,- ,1,sand?,PIN118gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN119,PIN119gc,WO1,45604,mush,0.1,unidentifiable mush,- ,1,,PIN119gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Sam,Pinfish,PIN120,PIN120gc,WO1,45604,mush,0.3,unidentifiable mush,-,1,,PIN120gc,0.3,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN121,PIN121g1,WO1,45604,mush,<0.1,unidentifiable mush,-,1,,PIN121g,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45663,Cole,Pinfish,PIN121,PIN121g2,WO1,45604,polychaete,<0.1,polychaete,1,2,,PIN121g,0.05,polychaete,TRUE,West,Outer,1
+BOEM,45664,Sam,Thread Herring,THH030,THH030gc,WO2,45604,mush,0.1,unidentifiable mush,-,1,,THH030gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Cole,Thread Herring,THH031,THH031gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,THH031gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Sam,Thread Herring,THH032,THH032gc,WO2,45604,mush,0.1,unidentifiable mush,-,1,,THH032gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Cole,Thread Herring,THH033,THH033gc,WO2,45604,mush,0.2,unidentifiable mush,-,1,,THH033gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Cole,Thread Herring,THH034,THH034gc,WO2,45604,mush,0.1,unidentifiable mush,-,1,,THH034gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Cole,Thread Herring,THH035,THH035gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,THH035gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Sam,Thread Herring,THH036,THH036gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,THH036gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Cole,Thread Herring,THH037,THH037gc,WO2,45604,mush,0.2,unidentifiable mush,-,1,,THH037gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45664,Sam,Thread Herring,THH038,THH038gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,THH038gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45665,Sam,Thread Herring,THH039,THH039gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,THH039gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Cole,Thread Herring,THH040,THH040gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,THH040gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Cole,Thread Herring,THH041,THH041gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,THH041gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Sam,Thread Herring,THH042,THH042gc,WO1,45604,mush,0.1,unidentifiable mush,-,1,,THH042gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Cole,Thread Herring,THH043,THH043gc,WO1,45604,mush,0.1,unidentifiable mush,-,1,,THH043gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Sam,Thread Herring,THH044,THH044gc,WO1,45604,mush,<0.1,unidentifiable mush,-,1,,THH044gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Cole,Thread Herring,THH045,THH045gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,THH045gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45665,Cole,Thread Herring,THH046,THH046gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,THH046gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45666,Cole,Moonfish,MOF015,MOF015gc,WI1,45604,mush,0.2,unidentifiable mush,-,1,,MOF015gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45666,Cole,Moonfish,MOF019,MOF019gc,WI1,45604,mush,0.1,unidentifiable mush,-,1,,MOF019gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45666,Cole,Moonfish,MOF021,MOF021gc,WO2,45604,mush,0.1,unidentifiable mush,-,1,,MOF021gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45666,Sam,Moonfish,MOF022,MOF022gc,WO2,45604,larval fish,0.1,biomatter,-,1,,MOF022gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45666,Cole,Moonfish,MOF025,MOF025gc,WO2,45604,mush,0.2,unidentifiable mush,-,1,,MOF025gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45670,Cole,Moonfish,MOF027,MOF027gc,WO1,45604,shrimp larvae,0.4,crustacean,-,2,shrimps ,MOF027gc,0.4,crustacean,TRUE,West,Outer,1
+BOEM,45670,Cole,Moonfish,MOF028,MOF028gc,WO1,45604,shrimp larvae,0.1,crustacean,-,2,no pic ,MOF028gc,0.1,crustacean,TRUE,West,Outer,1
+BOEM,45670,EG,Moonfish,MOF029,MOF029gc,WO1,45604,biomatter,0.3,crustacean,-,2,larve?,MOF029gc,0.3,crustacean,TRUE,West,Outer,1
+BOEM,45670,Cole,Moonfish,MOF030,MOF030gc,WO1,45604,shrimp larvae,0.1,crustacean,-,2,"decide if this is biomatteror crustacean, defintely there but there could also be polycheates, thinking its mostly likely crustacean ",MOF030gc,0.1,crustacean,TRUE,West,Outer,1
+BOEM,45670,Dannette,Moonfish,MOF031,MOF031gc,WO1,45604,larvae,0.1,biomatter,-,2,,MOF031gc,0.1,biomatter,TRUE,West,Outer,1
+BOEM,45670,EG,Moonfish,MOF032,MOF032gc,WO1,45604,mush,0.1,unidentifiable mush,-,1,,MOF032gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45670,EG,Moonfish,MOF033,MOF033gc,WO1,45604,mush,0.1,unidentifiable mush,-,1,,MOF033gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45670,Dannette,Moonfish,MOF034,MOF034gc,WO1,45604,mush,<0.1,unidentifiable mush,-,1,,MOF034gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45670,EG,Moonfish,MOF035,MOF035gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,MOF035gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45670,Dannette,Thread Herring,THH048,THH048gc,WI2,45604,mush,<0.1,unidentifiable mush,-,1,,THH048gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45670,EG,Thread Herring,THH050,THH050gc,WI2,45604,mush,<0.1,unidentifiable mush,-,1,,THH050gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45671,Cole,Thread Herring,THH051,THH051gc,WI2,45604,mush,<0.1,unidentifiable mush,-,1,,THH051gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45671,Cole,Striped Anchovy,STA053,STA053gc,WI2,45604,biomatter,0.2,crustacean,-,2,double check in case sam wants this as biomatter,STA053gc,0.2,crustacean,TRUE,West,Inner,2
+BOEM,45671,Cole,Striped Anchovy,STA055,STA055gc,WI2,45604,biomatter,0.3,crustacean,-,2,double check in case sam wants this as biomatter,STA055gc,0.3,crustacean,TRUE,West,Inner,2
+BOEM,45672,Cole,Striped Anchovy,STA057,STA057gc,WI2,45604,mush,0.1,unidentifiable mush,-,1,,STA057gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45672,Cole,Striped Anchovy,STA058,STA058gc,WI2,45604,shrimp larvae,0.1,crustacean,-,2,double check in case sam wants this as biomatter,STA058gc,0.1,crustacean,TRUE,West,Inner,2
+BOEM,45672,Cole,Striped Anchovy,STA059,STA059gc,WI2,45604,mush,0.1,unidentifiable mush,-,1,,STA059gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45672,Cole,Striped Anchovy,STA062,STA062gc,WI2,45604,mush,<0.1,unidentifiable mush,-,1,,STA062gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45672,Lindsey,Moonfish,MOF036,MOF036gc,EI1,45604,mush,0.2,unidentifiable mush,-,1,,MOF036gc,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45672,Lindsey,Moonfish,MOF037,MOF037gc,EI1,45604,mush,<0.1,unidentifiable mush,-,1,,MOF037gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45673,Cole,Striped Anchovy,STA070,STA070gc,EI1,45516,mush,<0.1,unidentifiable mush,-,1,,STA070gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45673,Cole,Striped Anchovy,STA072,STA072gc,EI1,45516,mush,<0.1,unidentifiable mush,-,1,,STA072gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45674,Cole,Striped Anchovy,STA079,STA079gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,STA079gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45674,Cole,Striped Anchovy,STA080,STA080gc,WI1,45604,mush,0.1,unidentifiable mush,-,1,,STA080gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45674,Cole,Striped Anchovy,STA081,STA081gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,STA081gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45684,Dannette,Thread Herring,THH052,THH052gc,WI1,45604,mush,0.1,unidentifiable mush,-,1,,THH052gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45684,Dannette,Thread Herring,THH053,THH053gc,WI1,45604,mush,0.1,unidentifiable mush,-,1,,THH053gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45684,EG,Thread Herring,THH054,THH054gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,THH054gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45684,Dannette,Thread Herring,THH055,THH055gc,WI1,45604,mush,0.1,unidentifiable mush,-,1,,THH055gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45684,EG,Thread Herring,THH056,THH056gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,THH056gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45684,Dannette,Thread Herring,THH057,THH057gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,THH057gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45685,Cole,Thread Herring,THH058,THH058gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,THH058gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45685,Cole,Thread Herring,THH059,THH059gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,THH059gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45685,Cole,Thread Herring,THH060,THH060gc,WI1,45604,mush,<0.1,unidentifiable mush,-,1,,THH060gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45685,Cole,Moonfish,MOF038,MOF038gc,WI1,45435,shrimp larvae,<0.1,crustacean,-,2,shrimps ,MOF038gc,0.05,crustacean,TRUE,West,Inner,1
+BOEM,45686,Cole,Atlantic Croaker,CRO002,CRO002gc,WI1,45517,mush,0.8,unidentifiable mush,-,1,,CRO002gc,0.8,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Sam,Atlantic Croaker,CRO003,CRO003gc,WI1,45517,mush,<0.1,unidentifiable mush,-,1,,CRO003gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Lindsey,Atlantic Croaker,CRO004,CRO004gc,WI1,45517,mush,0.3,unidentifiable mush,-,1,,CRO004gc,0.3,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Lindsey,Atlantic Croaker,CRO005,CRO005gc,WI1,45517,mush,0.5,unidentifiable mush,-,1,,CRO005gc,0.5,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Lindsey,Atlantic Croaker,CRO006,CRO006gc,WI1,45517,mush,0.1,unidentifiable mush,-,1,,CRO006gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Lindsey,Atlantic Croaker,CRO007,CRO007gc,WI1,45517,mush,0.2,unidentifiable mush,-,1,,CRO007gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Lindsey,Atlantic Croaker,CRO008,CRO008gc,WI1,45517,mush,<0.1,unidentifiable mush,-,1,,CRO008gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45686,Lindsey,Atlantic Croaker,CRO009,CRO009gc,WI1,45517,mush,0.2,unidentifiable mush,-,1,,CRO009gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45687,Cole,Striped Anchovy,STA095,STA095gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,STA095gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45687,Cole,Striped Anchovy,STA097,STA097gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,STA097gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45687,Cole,Striped Anchovy,STA099,STA099gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,"visible bones, but no picture :|",STA099gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45687,Cole,Striped Anchovy,STA100,STA100gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,STA100gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45688,Cole,Atlantic Croaker,CRO010,CRO010gc,WI1,45517,mush,0.1,unidentifiable mush,-,1,,CRO010gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45688,Cole,Atlantic Croaker,CRO011,CRO011gc,WI2,45517,mush,0.4,unidentifiable mush,-,1,,CRO011gc,0.4,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO012,CRO012gc,WI2,45517,shrimp,<0.1,crustacean,2,3,,CRO012gc,0.05,crustacean,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO013,CRO013g1,WI2,45517,mush,0.3,unidentifiable mush,-,1,,CRO013g,0.3,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO013,CRO013g2,WI2,45517,clam ,<0.1,mollusca,-,1,Dr. Posey approved,CRO013g,0.05,mollusca,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO013,CRO013g3,WI2,45517,polychaete,<0.1,polychaete,,2,Dr. Posey approved,CRO013g,0.05,polychaete,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO014,CRO014g1,WI2,45517,mush,0.2,unidentifiable mush,-,1,,CRO014g,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO014,CRO014g2,WI2,45517,shrimp,<0.1,crustacean,3,2,Dr. Posey approved,CRO014g,0.05,crustacean,TRUE,West,Inner,2
+BOEM,45688,Cole,Atlantic Croaker,CRO015,CRO015gc,WI2,45517,clam ,<0.1,mollusca,1,2,Dr. Posey approved ,CRO015gc,0.05,mollusca,TRUE,West,Inner,2
+BOEM,45691,Cole,Atlantic Croaker,CRO016,CRO016gc,WI2,45517,mush,0.1,unidentifiable mush,-,1,,CRO016gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45691,Cole,Atlantic Croaker,CRO017,CRO017gc,WI2,45517,mush,0.2,unidentifiable mush,-,1,,CRO017gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45691,Cole,Atlantic Croaker,CRO017,CRO017gc,WI2,45517,polychaete,<0.1,polychaete,3,5,Dr. Posey approved,CRO017gc,0.05,polychaete,TRUE,West,Inner,2
+BOEM,45691,Cole,Atlantic Croaker,CRO018,CRO018gc,WI2,45517,mush,<0.1,unidentifiable mush,-,1,,CRO018gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45691,EG,Atlantic Croaker,CRO019,CRO019gc,WI2,45517,mush,0.2,unidentifiable mush,-,1,,CRO019gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45691,EG,Atlantic Croaker,CRO022,CRO022gc,WO2,45517,shrimp larvae,0.9,crustacean,1,4,"larvae intact, posey confirmed its a baby mantis shrimp ",CRO022gc,0.9,crustacean,TRUE,West,Outer,2
+BOEM,45691,Dannette,Atlantic Croaker,CRO024,CRO024gc,WO2,45517,mush,0.3,unidentifiable mush,-,1,,CRO024gc,0.3,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45691,EG,Atlantic Croaker,CRO025,CRO025gc,WO2,45517,mush,0.8,unidentifiable mush,-,1,,CRO025gc,0.8,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45691,Dannette,Atlantic Croaker,CRO026,CRO026gc,WO2,45517,mush,0.2,unidentifiable mush,-,1,,CRO026gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45691,EG,Atlantic Croaker,CRO029,CRO029gc,EI2,45434,mush,<0.1,unidentifiable mush,-,1,,CRO029gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45691,EG,Atlantic Croaker,CRO031,CRO031gc,EI2,45434,mush,0.1,unidentifiable mush,-,1,,CRO031gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45692,Cole,Atlantic Croaker,CRO034,CRO034gc,EI2,45434,mush,<0.1,unidentifiable mush,-,1,,CRO034gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45692,Cole,Atlantic Croaker,CRO036,CRO036gc,EI2,45434,mush,0.1,unidentifiable mush,-,1,,CRO036gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45692,Cole,Atlantic Croaker,CRO037,CRO037gc,EI1,45434,mush,<0.1,unidentifiable mush,-,1,,CRO037gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45692,Cole,Atlantic Croaker,CRO039,CRO039gc,EI1,45434,shrimp and crab ,0.3,crustacean,2,3,Dr. Posey approved,CRO039gc,0.3,crustacean,TRUE,East,Inner,1
+BOEM,45693,Cole,Atlantic Croaker,CRO040,CRO040gc,EI1,45434,mush,0.1,unidentifiable mush,-,1,,CRO040gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45693,Cole,Atlantic Croaker,CRO041,CRO041g1,EI1,45434,mush,0.2,unidentifiable mush,-,1,,CRO041g,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45693,Cole,Atlantic Croaker,CRO041,CRO041g2,EI1,45434,crab,0.2,crustacean,1,3,crab parts,CRO041g,0.2,crustacean,TRUE,East,Inner,1
+BOEM,45693,Cole,Atlantic Croaker,CRO042,CRO042gc,EI1,45434,mush,0.1,unidentifiable mush,-,1,,CRO042gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45693,Cole,Atlantic Croaker,CRO043,CRO043gc,EI1,45434,polychaete,1,polychaete,-,4,Dr. Posey approved,CRO043gc,1,polychaete,TRUE,East,Inner,1
+BOEM,45693,Lindsey,Atlantic Croaker,CRO044,CRO044gc,EI1,45434,mush,<0.1,unidentifiable mush,-,1,,CRO044gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45693,Lindsey,Atlantic Croaker,CRO045,CRO045gc,EI1,45434,mush,0.1,unidentifiable mush,-,1,,CRO045gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45693,Lindsey,Atlantic Croaker,CRO046,CRO046gc,WO2,45435,mush,0.2,unidentifiable mush,-,1,,CRO046gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45693,Lindsey,Atlantic Croaker,CRO047,CRO047gc,WO2,45435,mush,0.2,unidentifiable mush,-,1,,CRO047gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45693,Lindsey,Atlantic Croaker,CRO048,CRO048gc,WO2,45435,mush,<0.1,unidentifiable mush,-,1,,CRO048gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45694,Cole,Atlantic Croaker,CRO049,CRO049gc,WO2,45435,detritus,<0.1,detritus,-,1,,CRO049gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45694,Cole,Atlantic Croaker,CRO050,CRO050gc,WO2,45435,shrimp and biomatter,<0.1,biomatter,-,1,,CRO050gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45694,Cole,Atlantic Croaker,CRO053,CRO053gc,WO2,45435,shrimp and biomatter,<0.1,biomatter,-,1,,CRO053gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45694,Cole,Atlantic Croaker,CRO054,CRO054gc,WO2,45435,mush,<0.1,unidentifiable mush,-,1,,CRO054gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45695,Cole,Atlantic Croaker,CRO055,CRO055gc,WI1,45604,biomatter,0.4,biomatter,1,3,maybe double check with posey once defrosted? ,CRO055gc,0.4,biomatter,TRUE,West,Inner,1
+BOEM,45695,Cole,Atlantic Croaker,CRO056,CRO056g1,WI1,45604,shrimp,0.2,crustacean,1,4,posey approved,CRO056g,0.2,crustacean,TRUE,West,Inner,1
+BOEM,45695,Cole,Atlantic Croaker,CRO056,CRO056g2,WI1,45604,biomatter,0.1,biomatter,1,3,potentially sea panzy ,CRO056g,0.1,biomatter,TRUE,West,Inner,1
+BOEM,45695,Cole,Atlantic Croaker,CRO057,CRO057g1,WI1,45604,polychaete  + fish parts + coral ,0.4,biomatter,-,2,"i think this is actually just algae, so i combined ",CRO057g,0.4,biomatter,TRUE,West,Inner,1
+BOEM,45695,Cole,Atlantic Croaker,CRO057,CRO057g2,WI1,45604,crab and shrimp,<0.1,crustacean,-,2,,CRO057g,0.05,crustacean,TRUE,West,Inner,1
+BOEM,45695,Cole,Atlantic Croaker,CRO058,CRO058gc,WI1,45604,polychaete and clam ,1.6,polychaete,-,2,"Dr. Posey approved, dont see clam in photo ?? ",CRO058gc,1.6,polychaete,TRUE,West,Inner,1
+BOEM,45695,Cole,Atlantic Croaker,CRO059,CRO059gc,WI1,45604,mush,0.1,unidentifiable mush,-,1,,CRO059gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45698,Cole,Atlantic Croaker,CRO060,CRO060gc,WO2,45604,shrimp,<0.1,crustacean,2,2,,CRO060gc,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45698,Cole,Atlantic Croaker,CRO060,CRO060gc,WO2,45604,mush,0.1,unidentifiable mush,-,1,,CRO060gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45698,Cole,Atlantic Croaker,CRO061,CRO061gc,WO2,45604,shrimp tail,<0.1,crustacean,1,4,,CRO061gc,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45698,Cole,Atlantic Croaker,CRO061,CRO061gc,WO2,45604,mush,0.1,unidentifiable mush,-,1,,CRO061gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45698,EG,Atlantic Croaker,CRO064,CRO064gc,WO1,45604,mush,0.2,unidentifiable mush,-,2,,CRO064gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45698,Dannette,Atlantic Croaker,CRO065,CRO065gc,WO1,45604,mush,0.1,unidentifiable mush,-,1,,CRO065gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45698,Dannette,Atlantic Croaker,CRO069,CRO069gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,CRO069gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45698,Dannette,Atlantic Croaker,CRO071,CRO071gc,WO1,45604,mush,0.3,unidentifiable mush,-,1,,CRO071gc,0.3,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45698,EG,Atlantic Croaker,CRO072,CRO072gc,WO1,45604,polychaete,0.2,polychaete,-,3,,CRO072gc,0.2,polychaete,TRUE,West,Outer,1
+BOEM,45698,Dannette,Atlantic Croaker,CRO073,CRO073gc,WO1,45604,mush,0.1,unidentifiable mush,-,1,"Scales in mush, no picture so should i put biomatteror mush? ",CRO073gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45698,EG,Atlantic Croaker,CRO074,CRO074gc,WO1,45604,mush,<0.1,unidentifiable mush,-,1,,CRO074gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45700,Cole,Atlantic Croaker,CRO077,CRO077gc,WO2,45604,mush,0.2,unidentifiable mush,-,1,,CRO077gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45700,Cole,Atlantic Croaker,CRO078,CRO078gc,WO2,45604,shrimp,<0.1,crustacean,1,4,,CRO078gc,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45700,Cole,Atlantic Croaker,CRO079,CRO079gc1,WO2,45604,polychaete,<0.1,polychaete,-,2,seperated,CRO079gc,0.05,polychaete,TRUE,West,Outer,2
+BOEM,45701,Cole,Atlantic Croaker,CRO079,CRO079gc2,WO2,45605,biomatter,<0.1,biomatter,,,,CRO079gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45700,Cole,Atlantic Croaker,CRO080,CRO080gc1,WI1,45604,biomatter,1.1,biomatter,1,3,,CRO080gc,1.1,biomatter,TRUE,West,Inner,1
+BOEM,45700,Cole,Atlantic Croaker,CRO080,CRO080gc2,WI1,45605,biomatter,0.8,crustacean,1,3,,CRO080gc,0.8,crustacean,TRUE,West,Inner,1
+BOEM,45700,Cole,Atlantic Croaker,CRO081,CRO081gc,WI1,45604,mush,0.2,unidentifiable mush,-,1,,CRO081gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45700,Dannette,Atlantic Croaker,CRO082,CRO082gc,WI1,45604,crab claw,<0.1,crustacean,-,3,"found in intestine, so not the stomach???? ",CRO082gc,0.05,crustacean,TRUE,West,Inner,1
+BOEM,45700,Lindsey,Atlantic Croaker,CRO083,CRO083gc,WI1,45604,mush,0.5,unidentifiable mush,-,1,,CRO083gc,0.5,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45700,Dannette,Atlantic Croaker,CRO084,CRO084gc,WI1,45604,mush,0.4,unidentifiable mush,-,1,,CRO084gc,0.4,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45700,Dannette,Atlantic Croaker,CRO086,CRO086gc,EO2,45434,crab,0.5,biomatter,-,2,,CRO086gc,0.5,biomatter,TRUE,East,Outer,2
+BOEM,45700,Dannette,Atlantic Croaker,CRO088,CRO088gc,EO2,45434,polychaete,0.3,polychaete,1,4,,CRO088gc,0.3,polychaete,TRUE,East,Outer,2
+BOEM,45700,Cole,Lizardfish,LIZ002,LIZ002gc,EO2,45434,anchovy,6.4,striped anchovy,1,3,,LIZ002gc,6.4,anchovy,TRUE,East,Outer,2
+BOEM,45701,Cole,Striped Anchovy,STA109,STA110gcg,EI2,45434,mush,0.1,unidentifiable mush,-,1,,STA110gcg,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45701,Cole,Moonfish,MOF039,MOF039gc,EI2,45434,shrimp larvae,0.2,biomatter,-,2,,MOF039gc,0.2,biomatter,TRUE,East,Inner,2
+BOEM,45701,Cole,Moonfish,MOF040,MOF040gc1,EI2,45434,biomatter,1,biomatter,-,1,,MOF040gc,1,biomatter,TRUE,East,Inner,2
+BOEM,45701,Cole,Moonfish,MOF040,MOF040gc2,EI2,45434,shrimp,0.1,crustacean,2,2,,MOF040gc,0.1,crustacean,TRUE,East,Inner,2
+BOEM,45701,Cole,Moonfish,MOF041,MOF041gc1,EI2,45434,biomatter,0.3,biomatter,-,2,,MOF041gc,0.3,biomatter,TRUE,East,Inner,2
+BOEM,45701,Cole,Moonfish,MOF041,MOF041gc2,EI2,45434,shrimp larvae,0.1,crustacean,,,,MOF041gc,0.1,crustacean,TRUE,East,Inner,2
+BOEM,40956,Cole,Weakfish,WEF001,WEF001gc,WO2,45435,biomatterand polychate,1.1,biomatter,-,2,Dr. Posey approved,WEF001gc,1.1,biomatter,TRUE,West,Outer,2
+BOEM,40956,Cole,Weakfish,WEF002,WEF002gc,WO2,45435,biomatter,0.4,biomatter,-,2,,WEF002gc,0.4,biomatter,TRUE,West,Outer,2
+BOEM,40956,Dannette,Weakfish,WEF005,WEF005gc,WO2,45435,mush,0.8,unidentifiable mush,-,1,,WEF005gc,0.8,unidentifiable mush,TRUE,West,Outer,2
+BOEM,40956,Dannette,Weakfish,WEF009,WEF009gc,WO2,45435,fish spine or biomatter,<0.1,biomatter,-,3,,WEF009gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,40956,Dannette,Thread Herring,THH061,THH061gc,WO2,45604,mush,<0.1,unidentifiable mush,-,1,,THH061gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45707,EG,Lizardfish,LIZ003,LIZ003gc,WI3,45604,mush,<0.1,unidentifiable mush,-,1,,LIZ003gc,0.05,unidentifiable mush,TRUE,West,Inner,3
+BOEM,45707,EG,Lizardfish,LIZ004,LIZ004gc,EI3,45597,mush,0.3,unidentifiable mush,-,1,,LIZ004gc,0.3,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45707,EG,Lizardfish,LIZ005,LIZ005gc,WO1,45435,fish,6.4,unidentifiable fish?,1,4,,LIZ005gc,6.4,unidentifiable fish,TRUE,West,Outer,1
+BOEM,45707,EG,Lizardfish,LIZ006,LIZ006gc,WO1,45517,mush,<0.1,unidentifiable mush,-,1,vegitation?,LIZ006gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45707,Cole,Lizardfish,LIZ007,LIZ007gc,WI2,45435,shrimp,0.4,crustacean based biomatter,-,2,,LIZ007gc,0.4,crustacean,TRUE,West,Inner,2
+BOEM,45707,Dannette,Lizardfish,LIZ020,LIZ020gc,WO3,45604,mush,<0.1,unidentifiable mush,-,1,,LIZ020gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45707,Lindsey,Lizardfish,LIZ009,LIZ009gc,WO3,45604,mush,<0.1,unidentifiable mush,-,1,,LIZ009gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45707,Dannette,Lizardfish,LIZ013,LIZ013gc,WO3,45604,shrimp,0.3,crustacean,1,4,,LIZ013gc,0.3,crustacean,TRUE,West,Outer,3
+BOEM,45707,Lindsey,Lizardfish,LIZ012,LIZ012gc,WO3,45604,larvae,<0.1,biomatter,-,1,,LIZ012gc,0.05,biomatter,TRUE,West,Outer,3
+BOEM,45707,Lindsey,Lizardfish,LIZ015,LIZ015gc,WO3,45604,anchovy,5.1,biomatter,3,3,,LIZ015gc,5.1,biomatter,TRUE,West,Outer,3
+BOEM,45707,Lindsey,Lizardfish,LIZ017,LIZ017gc,WO3,45604,anchovy,0.1,anchovy,1,4,,LIZ017gc,0.1,anchovy,TRUE,West,Outer,3
+BOEM,45712,Cole,Lizardfish,LIZ018,LIZ018gc,WI3,45435,shrimp,0.9,crustacean,-,4,,LIZ018gc,0.9,crustacean,TRUE,West,Inner,3
+BOEM,45712,Sam,Pigfish,PIG001,PIG001,EO3,45434,mush,<0.1,unidentifiable mush,-,1,,PIG,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45712,Sam,Pigfish,PIG002,PIG002,EI1,45434,mush,0.6,unidentifiable mush,-,2,,PIG,0.6,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45712,Cole,Moonfish,MOF045,MOF045gc,EO3,45434,shrimp larvae,0.3,biomatter,-,1,,MOF045gc,0.3,biomatter,TRUE,East,Outer,3
+BOEM,45713,Cole,Pigfish,PIG005,PIG005gc,WI2,45517,mush,0.6,unidentifiable mush,-,1,,PIG005gc,0.6,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45713,Cole,Pigfish,PIG006,PIG006gc,WI2,45517,mollusk?,0.1,biomatter,-,2,,PIG006gc,0.1,biomatter,TRUE,West,Inner,2
+BOEM,45713,Cole,Pigfish,PIG007,PIG007gc,WO1,45517,mush,0.2,unidentifiable mush,-,1,,PIG007gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45720,Sam,Pigfish,PIG008,PIG008gc,WO3,45604,squid,2,squid (mollusca),1,4,,PIG008gc,2,mollusca,TRUE,West,Outer,3
+BOEM,45720,Tiana,Spot,SPO067,SPO067gc,WO3,45348,mush,<0.1,unidentifiable mush,0,1,,SPO067gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45722,Sam,Atlantic Croaker,CRO090,CRO090gc,EI2,45338,shell/ biomatter,0.2,biomatter,0,1,,CRO090gc,0.2,biomatter,TRUE,East,Inner,2
+BOEM,45722,Cole,Moonfish,MOF048,MOF048gc,EI1,45338,shrimp larvae,<0.1,biomatter,-,2,,MOF048gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45726,Cole,Thread Herring,THH063,THH063gc,WO1,45348,mush,0.1,unidentifiable mush,-,1,,THH063gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45726,Cole,Pinfish,PIN123,PIN123gc,WO2,45348,unknown,0.1,biomatter,1,2, crustacean?,PIN123gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45726,Cole,Pinfish,PIN124,PIN124g1,WO2,45348,clam,<0.1,mollusc,1,3,,PIN124g,0.05,mollusca,TRUE,West,Outer,2
+BOEM,45726,Cole,Pinfish,PIN124,PIN124g2,WO2,45348,mush,<0.1,unidentifiable mush,-,1,,PIN124g,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45726,Cole,Pinfish,PIN126,PIN126gc,WO2,45348,unknown,0.2,biomatter,-,2,,PIN126gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,46107,Cole,Pinfish,PIN127,PIN127gc,WI1,45348,mush,0.2,unidentifiable mush,-,1,,PIN127gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,46107,Cole,Pinfish,PIN128,PIN128c,WI1,45348,mush,<0.1,biomatter,-,2,,PIN128c,0.05,biomatter,TRUE,West,Inner,1
+BOEM,46107,Cole,Pinfish,PIN129,PIN129gc,WI1,45348,mush,<0.1,unidentifiable mush,-,1,,PIN129gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,46107,Dannette,Pinfish,PIN131,PIN131gc,WI1,45348,shrimp larvae,<0.1,biomatter,-,1,,PIN131gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,46107,Lindsey,Pinfish,PIN133,PIN133gc,WI1,45348,larva,<0.1,biomatter,-,1,,PIN133gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,46107,Lindsey,Pinfish,PIN135,PIN135gc,WI1,45348,mush,<0.1,unidentifiable mush,-,1,,PIN135gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,46107,Dannette,Pigfish,PIG010,PIG010gc,WO1,45604,mush,0.2,unidentifiable mush,-,1,,PIG010gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,46107,Lindsey,Pigfish,PIG009,PIG009gc,WO1,45604,mush,0.3,unidentifiable mush,-,1,,PIG009gc,0.3,unidentifiable mush,TRUE,West,Outer,1
+BOEM,46107,Dannette,Pigfish,PIG011,PIG011g1,WO1,45604,mush,0.5,biomatter,-,1,,PIG011g,0.5,biomatter,TRUE,West,Outer,1
+BOEM,46107,Dannette,Pigfish,PIG011,PIG011g2,WO1,45604,shrimp,0.3,crustacean,1,5,,PIG011g,0.3,crustacean,TRUE,West,Outer,1
+BOEM,46107,Lindsey,Pigfish,PIG012,PIG012gc,WO1,45604,mush,0.8,unidentifiable mush,-,1,,PIG012gc,0.8,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45744,Cole,Pinfish,PIN146,PIN146gc,EI2,45338,mush,0.1,unidentifiable mush,-,1,,PIN146gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45744,Cole,Pinfish,PIN150,PIN150gc,EI2,45338,biomatter,<0.1,biomatter,-,1,"larvae mush, eggs of some sort? ",PIN150gc,0.05,biomatter,TRUE,East,Inner,2
+BOEM,45747,Cole,Striped Anchovy,STA109,STA109gc,WO3,45348,mush,0.2,unidentifiable mush,-,1,,STA109gc,0.2,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45747,Cole,Striped Anchovy,STA110,STA110gc,WO3,45348,mush,0.1,unidentifiable mush,-,1,,STA110gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45747,Cole,Striped Anchovy,STA111,STA111gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA111gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45747,Cole,Striped Anchovy,STA113,STA113gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA113gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45747,Cole,Striped Anchovy,STA118,STA118gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA118gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45747,Cole,Striped Anchovy,STA120,STA120gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA120gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45747,Cole,Striped Anchovy,STA122,STA122gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA122gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45747,Dannette,Striped Anchovy,STA115,STA115gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA115gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45747,Dannette,Striped Anchovy,STA123,STA123gc,EI2,45338,mush,<0.1,unidentifiable mush,-,1,,STA123gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45749,Dannette,Striped Anchovy,STA124,STA124gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA124gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45749,Lindsey,Striped Anchovy,STA125,STA125gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA125gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45749,Lindsey,Striped Anchovy,STA127,STA127gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA127gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45749,Lindsey,Striped Anchovy,STA130,STA130gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA130gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45749,Lindsey,Striped Anchovy,STA132,STA132gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA132gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45749,Dannette,Striped Anchovy,STA131,STA131gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA131gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45749,Dannette,Striped Anchovy,STA133,STA133gc,EI1,45338,mush,<0.1,unidentifiable mush,-,1,,STA133gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45750,Cole,Striped Anchovy,STA134,STA134gc,WO2,45348,mush,0.1,unidentifiable mush,-,1,,STA134gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45750,Cole,Striped Anchovy,STA135,STA135gc,WO2,45348,mush,0.1,unidentifiable mush,-,1,,STA135gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45750,Cole,Striped Anchovy,STA136,STA136gc,WO2,45348,mush,0.1,unidentifiable mush,-,1,,STA136gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45750,Cole,Striped Anchovy,STA137,STA137gc,WO2,45348,mush,0.1,unidentifiable mush,-,1,,STA137gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45750,Cole,Striped Anchovy,STA138,STA138gc,WO2,45348,mush,0.2,unidentifiable mush,-,1,,STA138gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45750,Cole,Striped Anchovy,STA139,STA139gc,WO2,45348,mush,0.2,unidentifiable mush,-,1,,STA139gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45754,Cole,Striped Anchovy,STA140,STA140gc,WO2,45348,mush,0.2,unidentifiable mush,-,1,,STA140gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45754,Cole,Striped Anchovy,STA141,STA141gc,WO2,45348,mush,<0.1,unidentifiable mush,-,1,,STA141gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45754,Cole,Striped Anchovy,STA142,STA142gc,WO2,45348,mush,<0.1,unidentifiable mush,-,1,,STA142gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45754,Cole,Striped Anchovy,STA143,STA143gc,WO2,45348,mush,<0.1,unidentifiable mush,-,1,,STA143gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45754,Dannette,Striped Anchovy,STA144,STA144gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA144gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45754,Dannette,Striped Anchovy,STA145,STA145gc,WO1,45348,mush,0.1,unidentifiable mush,-,1,,STA145gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45754,Cole,Striped Anchovy,STA146,STA146gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA146gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45754,Dannette,Striped Anchovy,STA147,STA147gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA147gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45754,Dannette,Striped Anchovy,STA148,STA148gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA148gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45756,Cole,Striped Anchovy,STA150,STA150gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA150gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45756,Dannette,Striped Anchovy,STA151,STA151gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA151gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45756,Lindsey,Striped Anchovy,STA152,STA152gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA152gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45756,Dannette,Striped Anchovy,STA153,STA153gc,WO1,45348,mush,<0.1,unidentifiable mush,-,1,,STA153gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45756,Dannette,Atlantic Croaker,CRO091,CRO091gc,WO3,45224,unknown,1.6,biomatter,1,3,fish?,CRO091gc,1.6,biomatter,TRUE,West,Outer,3
+BOEM,45756,Dannette,Atlantic Croaker,CRO093,CRO093gc,WO3,45224,mush,<0.1,unidentifiable mush,-,1,,CRO093gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45756,Lindsey,Atlantic Bumper,ATB026,ATB026gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,ATB026gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Cole,Thread Herring,THH064,THH064gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH064gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Cole,Thread Herring,THH065,THH065gc,EO3,45224,mush,0.1,unidentifiable mush,-,1,,THH065gc,0.1,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Cole,Thread Herring,THH066,THH066gc,EO3,45224,mush,0.1,unidentifiable mush,-,1,,THH066gc,0.1,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Dannette,Thread Herring,THH067,THH067gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH067gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Dannette,Thread Herring,THH068,THH068gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH068gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Dannette,Thread Herring,THH069,THH069gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH069gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Dannette,Thread Herring,THH070,THH070gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH070gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Cole,Thread Herring,THH071,THH071gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH071gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Dannette,Thread Herring,THH073,THH073gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,THH073gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45761,Cole,Weakfish,WEF024,WEF024gc,EO3,45224,anchovy,9.6,striped anchovy,4,3,"large and heads degraded, id by body ",WEF024gc,9.6,anchovy,TRUE,East,Outer,3
+BOEM,45763,Cole,Moonfish,MOF054,MOF054gc,EO3,45224,biomatter,0.4,biomatter,1,2,fish?,MOF054gc,0.4,biomatter,TRUE,East,Outer,3
+BOEM,45763,Lindsey,Moonfish,MOF055,MOF055gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,MOF055gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45763,Lindsey,Moonfish,MOF057,MOF057gc,EO3,45224,biomatter,1.3,biomatter,1,3,fish?,MOF057gc,1.3,biomatter,TRUE,East,Outer,3
+BOEM,45763,Lindsey,Moonfish,MOF059,MOF059gc,EO3,45224,biomatter,0.2,biomatter,1,2,"fish? tbh this might just be mush, pic isnt good ",MOF059gc,0.2,biomatter,TRUE,East,Outer,3
+BOEM,45763,Lindsey,Moonfish,MOF060,MOF060gc,EO3,45224,mush,0.1,unidentifiable mush,-,1,,MOF060gc,0.1,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45764,Sam,Striped Anchovy,STA157,STA157gc,EO3,45224,zooplankton,0.2,biomatter,-,2,,STA157gc,0.2,biomatter,TRUE,East,Outer,3
+BOEM,45764,Sam,Striped Anchovy,STA160,STA160gc,EO3,45224,zooplankton,0.1,biomatter,-,1,,STA160gc,0.1,biomatter,TRUE,East,Outer,3
+BOEM,45770,Lindsey,Striped Anchovy,STA161,STA161gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,STA161gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45770,Dannette,Striped Anchovy,STA162,STA162gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,STA162gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45770,Dannette,Striped Anchovy,STA163,STA163gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,STA163gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45770,Lindsey,Striped Anchovy,STA164,STA164gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,STA164gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45770,Dannette,Striped Anchovy,STA165,STA165gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,STA165gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45770,Lindsey,Pinfish,PIN151,PIN151gc,EO3,45224,mush,0.2,unidentifiable mush,-,1,,PIN151gc,0.2,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45770,Lindsey,Pinfish,PIN152,PIn152gc,EO3,45224,mush,<0.1,unidentifiable mush,-,1,,PIn152gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45775,Cole,Pinfish,PIN154,PIN154gc,EO3,45224,mush,0.2,unidentifiable mush,-,1,,PIN154gc,0.2,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45775,Cole,Pinfish,PIN155,PIN155gc,EO3,45224,biomatter,0.3,biomatter,-,1,"fish?,",PIN155gc,0.3,biomatter,TRUE,East,Outer,3
+BOEM,45775,Dannette,Pinfish,PIN157,PIN157gc,EO3,45224,biomatter,0.2,biomatter,-,1,fissh?,PIN157gc,0.2,biomatter,TRUE,East,Outer,3
+BOEM,45775,Dannette,Pinfish,PIN158,PIN158gc,EO3,45224,biomatter,0.1,biomatter,-,1,fish? ,PIN158gc,0.1,biomatter,TRUE,East,Outer,3
+BOEM,45775,Dannette,Pinfish,PIN159,PIN159gc,EO3,45224,biomatter,0.2,biomatter,-,1,fish? ,PIN159gc,0.2,biomatter,TRUE,East,Outer,3
+BOEM,45775,Dannette,Pinfish,PIN160,PIN160gc,EO3,45224,mush,0.6,biomatter,-,1,vegitation ,PIN160gc,0.6,biomatter,TRUE,East,Outer,3
+BOEM,45775,Dannette,Pinfish,PIN161,PIN161gc,EO3,45224,mush,0.2,unidentifiable mush,-,1,,PIN161gc,0.2,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45779,Cole,Spot,SPO083,SPO083gc,EO3,45224,hard detritus/biomatter?,<0.1,biomatter,-,2,,SPO083gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45779,Cole,Spot,SPO086,SPO086gc,EO3,45224,detritus,<0.1,detritus,-,1,,SPO086gc,0.05,detritus,TRUE,East,Outer,3
+BOEM,45779,Sam,Spot,SPO087,SPO087gc,EO3,45224,biomatter?,<0.1,biomatter,?,1,,SPO087gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45779,Cole,Spot,SPO088,SPO088gc,EO3,45224,clam,<0.1,mollusca,1,3,,SPO088gc,0.05,mollusca,TRUE,East,Outer,3
+BOEM,45779,Cole,Spot,SPO089,SPO089gc,EO3,45224,shrimp/biomatter,<0.1,biomatter,1,3,,SPO089gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45789,Dannette,Atlantic Bumper,ATB027,ATB027gc,EI3,45224,larvae,0.6,crustacean,-,3,,ATB027gc,0.6,crustacean,TRUE,East,Inner,3
+BOEM,45789,Dannette,Atlantic Bumper,ATB028,ATB028gc,EI3,45224,biomatter,0.5,biomatter,-,2,,ATB028gc,0.5,biomatter,TRUE,East,Inner,3
+BOEM,45789,Cole,Atlantic Bumper,ATB029,ATB029gc,EI3,45224,shrimp larvae,0.4,crustacean,-,3,,ATB029gc,0.4,crustacean,TRUE,East,Inner,3
+BOEM,45789,Dannette,Atlantic Bumper,ATB030,ATB030gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,ATB030gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Atlantic Bumper,ATB031,ATB031gc,EI3,45224,larvae,0.2,biomatter,-,2,,ATB031gc,0.2,biomatter,TRUE,East,Inner,3
+BOEM,45789,Dannette,Thread Herring,THH074,THH074gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH074gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Thread Herring,THH075,THH075gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH075gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Cole,Thread Herring,THH076,THH076gc,EI3,45224,mush,0.2,unidentifiable mush,-,1,,THH076gc,0.2,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Thread Herring,THH077,THH077gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH077gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Cole,Thread Herring,THH078,THH078gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH078gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Thread Herring,THH079,THH079gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH079gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Cole,Thread Herring,THH080,THH080gc,EI3,45224,mush,0.1,unidentifiable mush,-,1,,THH080gc,0.1,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Thread Herring,THH081,THH081gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH081gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Thread Herring,THH082,THH082gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH082gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Cole,Thread Herring,THH083,THH083gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,THH083gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Moonfish,MOF061,MOF061gc,EI3,45224,larvae,0.1,unidentifiable mush,-,3,,MOF061gc,0.1,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Dannette,Moonfish,MOF063,MOF063gc,EI3,45224,mush,<0.1,unidentifiable mush,-,2,,MOF063gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45789,Cole,Moonfish,MOF064,MOF064gc,EI3,45224,shrimp larvae,0.2,crustacean,-,3,,MOF064gc,0.2,crustacean,TRUE,East,Inner,3
+BOEM,45790,Dannette,Striped Anchovy,STA168,STA168gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,STA168gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45790,Cole,Pinfish,PIN162,PIN162gc1,EI3,45224,biomatter,0.9,biomatter,-,4,,PIN162gc,0.9,biomatter,TRUE,East,Inner,3
+BOEM,45790,Dannette,Striped Anchovy,STA170,STA170gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,STA170gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45790,Cole,Pinfish,PIN162,PIN162gc2,EI3,45224,crustacean,<0.1,crustacean,-,2,,PIN162gc,0.05,crustacean,TRUE,East,Inner,3
+BOEM,45790,Dannette,Striped Anchovy,STA174,STA174gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,STA174gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45790,Cole,Striped Anchovy,STA175,STA175gc,EI3,45224,mush,<0.1,unidentifiable mush,-,1,,STA175gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45790,Dannette,Atlantic Bumper,ATB032,ATB032gc,EI2,45224,mush,0.1,unidentifiable mush,-,1,,ATB032gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45790,Cole,Atlantic Bumper,ATB033,ATB033gc,EI2,45224,larvae?,0.2,biomatter,-,2,,ATB033gc,0.2,biomatter,TRUE,East,Inner,2
+BOEM,45790,Dannette,Atlantic Bumper,ATB034,ATB034gc,EI2,45224,mush,0.1,unidentifiable mush,-,1,,ATB034gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45790,Cole,Atlantic Bumper,ATB035,ATB035gc,EI2,45224,mush,0.2,unidentifiable mush,-,1,,ATB035gc,0.2,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45790,Dannette,Atlantic Bumper,ATB036,ATB036gc,EI2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB036gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45791,Cole,Atlantic Bumper,ATB037,ATB037gc,EI2,45224,mush,0.1,unidentifiable mush,-,1,,ATB037gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45791,Cole,Atlantic Bumper,ATB039,ATB039gc,EI2,45224,mush,0.2,unidentifiable mush,-,1,,ATB039gc,0.2,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45791,Cole,Atlantic Bumper,ATB040,ATB040gc,EI2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB040gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45791,Cole,Atlantic Bumper,ATB041,ATB041gc,EI2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB041gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45792,Dannette,Thread Herring,THH084,THH084gc,EI2,45224,mush,0.1,unidentifiable mush,-,1,,THH084gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45792,Dannette,Thread Herring,THH085,THH085gc,EI2,45224,mush,0.1,unidentifiable mush,-,1,,THH085gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45792,Dannette,Thread Herring,THH086,THH086gc,EO2,45224,mush,0.3,unidentifiable mush,-,1,,THH086gc,0.3,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45796,Cole,Spot,SPO096,SPO096gc,EO2,45224,sediment,<0.1,detritus,-,1,,SPO096gc,0.05,detritus,TRUE,East,Outer,2
+BOEM,45796,Cole,Spot,SPO097,SPO097gc,EO2,45224,sediment,<0.1,detritus,-,1,,SPO097gc,0.05,detritus,TRUE,East,Outer,2
+BOEM,45798,Cole,Atlantic Croaker,CRO095,CRO095gc,EO2,45224,Shrimp?,<0.1,biomatter,1,2,,CRO095gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45798,Dannette,Atlantic Croaker,CRO096,CRO096gc,EO2,45224,biomatter,<0.1,biomatter,-,1,,CRO096gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45798,Dannette,Atlantic Croaker,CRO098,CRO098gc,EO2,45224,worm,0.1,polychaete,1,3,,CRO098gc,0.1,polychaete,TRUE,East,Outer,2
+BOEM,45799,Sam,Pinfish,PIN163,PIN163gc,EO2,45224,mush/veg?,0.3,biomatter,8,1,legs or veg? ,PIN163gc,0.3,biomatter,TRUE,East,Outer,2
+BOEM,45800,Cheyenne,Pinfish,PIN164,PIN164gc,EO2,45224,mush/veg?,0.1,biomatter,17,1,legs or veg?,PIN164gc,0.1,biomatter,TRUE,East,Outer,2
+BOEM,45801,Sam,Pinfish,PIN165,PIN165gc,EO2,45224,shrimp,<0.1,biomatter,6,2,,PIN165gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45802,Cheyenne,Pinfish,PIN166,PIN166gc,EO2,45224,mush/veg?,0.2,biomatter,12,1,legs or veg?,PIN166gc,0.2,biomatter,TRUE,East,Outer,2
+BOEM,45803,Sam,Pinfish,PIN167,PIN167gc1,EO2,45224,veg,<0.1,biomatter,-,2,,PIN167gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45804,Sam,Pinfish,PIN167,PIN167gc2,EO2,45224,shrimp,<0.1,crustacean,1,3,,PIN167gc,0.05,crustacean,TRUE,East,Outer,2
+BOEM,45805,Sam,Pinfish,PIN167,PIN167gc3,EO2,45224,rocks/sand,<0.1,detritus,4,5,,PIN167gc,0.05,detritus,TRUE,East,Outer,2
+BOEM,45806,Cheyenne,Pinfish,PIN168,PIN168gc1,EO2,45224,mush,0.1,unidentifiable mush,-,1,,PIN168gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45807,Cheyenne,Pinfish,PIN168,PIN168gc2,EO2,45224,veg,0.1,biomatter,-,1,,PIN168gc,0.1,biomatter,TRUE,East,Outer,2
+BOEM,45808,Sam,Pinfish,PIN169,PIN169gc1,EO2,45224,shrimp,0.3,crustacean,24,2,,PIN169gc,0.3,crustacean,TRUE,East,Outer,2
+BOEM,45809,Sam,Pinfish,PIN169,PIN169gc2,EO2,45224,sand,0.2,detritus,3,1,,PIN169gc,0.2,detritus,TRUE,East,Outer,2
+BOEM,45810,Cheyenne,Pinfish,PIN170,PIN170gc1,EO2,45224,rocks,0.2,detritus,4,1,,PIN170gc,0.2,detritus,TRUE,East,Outer,2
+BOEM,45811,Cheyenne,Pinfish,PIN170,PIN170gc2,EO2,45224,mush,0.2,unidentifiable mush,-,1,,PIN170gc,0.2,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45812,Cheyenne,Pinfish,PIN170,PIN170gc3,EO2,45224,veg,0.1,biomatter,-,1,,PIN170gc,0.1,biomatter,TRUE,East,Outer,2
+BOEM,45813,Sam,Pinfish,PIN171,PIN171gc,EO2,45224,veg,0.5,biomatter,-,1,,PIN171gc,0.5,biomatter,TRUE,East,Outer,2
+BOEM,45814,Cheyenne,Pinfish,PIN172,PIN172gc1,EO2,45224,rocks/sand,<0.1,detritus,5,4,,PIN172gc,0.05,detritus,TRUE,East,Outer,2
+BOEM,45815,Cheyenne,Pinfish,PIN172,PIN172gc2,EO2,45224,shrimp,0.2,crustacean,6,3,,PIN172gc,0.2,crustacean,TRUE,East,Outer,2
+BOEM,45816,Cheyenne,Pinfish,PIN172,PIN172gc3,EO2,45224,mush,0.1,unidentifiable mush,-,1,,PIN172gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45817,Cheyenne,Pinfish,PIN172,PIN172gc4,EO2,45224,veg,<0.1,biomatter,-,1,,PIN172gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45800,Cole,Moonfish,MOF067,MOF067gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,MOF067gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45800,Cole,Moonfish,MOF068,MOF068gc,EO2,45224,larvae?,<0.1,biomatter,-,2,could probably be identified as mysid? decide if its crustacean or biomatter,MOF068gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45800,Cole,Moonfish,MOF071,MOF071gc,EO2,45224,larvae?,0.1,biomatter,-,2,crustacean based biomatter,MOF071gc,0.1,biomatter,TRUE,East,Outer,2
+BOEM,45800,Cole,Moonfish,MOF072,MOF072gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,MOF072gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45800,Cole,Moonfish,MOF073,MOF073gc,EO2,45224,mush/larvae?,<0.1,biomatter,-,1,crustacean based biomatter,MOF073gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45804,Cheyenne,Atlantic Bumper,ATB042,ATB042gc,EO2,45224,mush,0.7,unidentifiable mush,-,1,,ATB042gc,0.7,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45804,Sam,Atlantic Bumper,ATB043,ATB043gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB043gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45804,Cheyenne,Atlantic Bumper,ATB044,ATB044gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB044gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45804,Sam,Atlantic Bumper,ATB045,ATB045gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB045gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45804,Cheyenne,Atlantic Bumper,ATB046gc,ATB046,EO2,45224,mush,0.3,unidentifiable mush,-,1,,ATB,0.3,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45804,Sam,Atlantic Bumper,ATB047,ATB047gc1,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB047gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45804,Cheyenne,Atlantic Bumper,ATB048,ATB048gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,ATB048gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45805,Dannette,Atlantic Croaker,CRO106,CRO106gc,WO3,45225,mush w/ scale,<0.1,unidentifiable mush,-,1,,CRO106gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45805,Dannette,Atlantic Bumper,ATB049,ATB049gc,EO2,45224,mush,0.3,unidentifiable mush,-,1,,ATB049gc,0.3,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45805,Dannette,Atlantic Bumper,ATB050,ATB050gc,EO2,45224,larve? or shrimp?,0.3,biomatter,-,1,,ATB050gc,0.3,biomatter,TRUE,East,Outer,2
+BOEM,45805,Dannette,Atlantic Bumper,ATB051,ATB051gc,EO2,45224,mush,0.3,unidentifiable mush,-,1,,ATB051gc,0.3,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45807,Dannette,Atlantic Croaker,CRO107,CRO107gc,WI1,45225,mush,0.1,unidentifiable mush,-,1,,CRO107gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO108,CRO108gc,WI1,45225,mush,0.3,unidentifiable mush,-,1,,CRO108gc,0.3,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO109,CRO109gc,WI1,45225,mush,0.1,unidentifiable mush,-,1,,CRO109gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO110,CRO110gc,WI1,45225,mush,0.1,unidentifiable mush,-,1,,CRO110gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO111,CRO111gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,CRO111gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO112,CRO112gc,WI1,45225,snail,0.1,mollusca,1,4,,CRO112gc,0.1,mollusca,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO112,CRO112gc,WI1,45225,mush,0.1,unidentifiable mush,-,1,,CRO112gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO114,CRO114gc,WI1,45225,mush,0.5,unidentifiable mush,-,1,,CRO114gc,0.5,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO115,CRO115gc,WI1,45225,mush,0.2,unidentifiable mush,-,1,,CRO115gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45807,Dannette,Atlantic Croaker,CRO116,CRO116gc,WI1,45225,mush,0.1,unidentifiable mush,-,1,,CRO116gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45810,Dannette,Atlantic Croaker,CRO118,CRO118gc,EI2,45719,mush,0.1,unidentifiable mush,-,1,,CRO118gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45810,Dannette,Atlantic Croaker,CRO123,CRO123gc,EI2,45719,mush,<0.1,unidentifiable mush,-,1,,CRO123gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45810,Dannette,Atlantic Croaker,CRO125,CRO125gc,EI3,45719,mush,<0.1,unidentifiable mush,-,1,,CRO125gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45811,Dannette,Atlantic Croaker,CRO128,CRO128gc,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO128gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Dannette,Atlantic Croaker,CRO129,CRO129gc,WO2,45757,mush,0.3,unidentifiable mush,-,1,,CRO129gc,0.3,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Dannette,Atlantic Croaker,CRO130,CRO130gc,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO130gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Dannette,Atlantic Croaker,CRO131,CRO131gc,WO2,45757,mush,0.1,unidentifiable mush,-,1,,CRO131gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO132,CRO132gc,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO132gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO134,CRO134gc,WO2,45757,legs?crab?,<0.1,biomatter,-,1,,CRO134gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO134,CRO134gc,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO134gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Dannette,Atlantic Croaker,CRO135,CRO135gc,WO2,45757,mush,0.2,unidentifiable mush,-,1,,CRO135gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Dannette,Atlantic Croaker,CRO136,CRO136gc,WO2,45757,mush,0.1,unidentifiable mush,-,1,,CRO136gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO137,CRO137gc,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO137gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO138,CRO138gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,CRO138gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45811,Dannette,Atlantic Croaker,CRO140,CRO140gc,WI1,45757,shell,<0.1,mollusca,1,5,,CRO140gc,0.05,mollusca,TRUE,West,Inner,1
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO141,CRO141gc,WI1,45757,mush,0.1,unidentifiable mush,-,1,,CRO141gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45811,Dannette,Atlantic Croaker,CRO142,CRO142gc,WI1,45757,mush,0.1,unidentifiable mush,-,1,,CRO142gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO143,CRO143gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,CRO143gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45811,Dannette,Atlantic Croaker,CRO144,CRO144gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,CRO144gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO145,CRO145gc,WI1,45757,biomatter,<0.1,biomatter,-,1,,CRO145gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO145,CRO145gc,WI1,45757,mush,0.2,unidentifiable mush,-,1,,CRO145gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45811,Cheyenne,Atlantic Croaker,CRO147,CRO147gc,WI1,45757,mush,0.1,unidentifiable mush,-,1,,CRO147gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45817,Dannette,Atlantic Croaker,CRO148,CRO148gc,WI2,45757,veg?,<0.1,biomatter,-,1,,CRO148gc,0.05,biomatter,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO149,CRO149gc,WI2,45757,unk veg,0.3,biomatter,-,2,,CRO149gc,0.3,biomatter,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO151,CRO151gc,WI2,45757,larvae?,<0.1,biomatter,3,2,,CRO151gc,0.05,biomatter,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO152,CRO152gc,WI2,45757,mush,0.1,unidentifiable mush,-,1,,CRO152gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45817,Cole,Striped Anchovy,STA191,STA192gc,EI2,45224,mush,<0.1,unidentifiable mush,-,1,,STA192gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO153,CRO153gc,WI2,45757,unk veg,<0.1,biomatter,-,1,,CRO153gc,0.05,biomatter,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO154,CRO154gc,WI2,45757,mush,0.2,unidentifiable mush,-,1,,CRO154gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO155,CRO155gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO155gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO156,CRO156gc,WI2,45757,unk veg,0.2,biomatter,-,1,,CRO156gc,0.2,biomatter,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO157,CRO157gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,CRO157gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45817,Dannette,Atlantic Croaker,CRO158,CRO158gc,WO3,45757,jelly like mush,1.6,biomatter,-,2,,CRO158gc,1.6,biomatter,TRUE,West,Outer,3
+BOEM,45817,Dannette,Atlantic Croaker,CRO160,CRO160gc,WO3,45757,mush,<0.1,unidentifiable mush,-,1,,CRO160gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45817,Cole,Atlantic Croaker,CRO161,CRO161gc,WO3,45757,striped anchovy,1,striped anchovy,1,5,,CRO161gc,1,anchovy,TRUE,West,Outer,3
+BOEM,45817,Sam,Atlantic Croaker,CRO162,CRO162gc1,WO3,45757,worm,<0.1,polychaete,1,5,,CRO162gc,0.05,polychaete,TRUE,West,Outer,3
+BOEM,45817,Sam,Atlantic Croaker,CRO162,CRO162gc2,WO3,45757,mush,0.1,unidentifiable mush,-,1,,CRO162gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45817,Sam,Atlantic Croaker,CRO163,CRO163gc,WO3,45757,biomatter,<0.1,biomatter,-,1,,CRO163gc,0.05,biomatter,TRUE,West,Outer,3
+BOEM,45817,Sam,Atlantic Croaker,CRO164,CRO164gc1,WO3,45757,worm,20.1,polychaete,-,2,"urm i dont think this is correct, no way this worm is 20  g ",CRO164gc,20.1,polychaete,TRUE,West,Outer,3
+BOEM,45817,Sam,Atlantic Croaker,CRO164,CRO164gc2,WO3,45757,biomatter,0.1,biomatter,-,1,,CRO164gc,0.1,biomatter,TRUE,West,Outer,3
+BOEM,45819,Dannette,Atlantic Croaker,CRO165,CRO165gc,WO3,45757,mush,0.1,unidentifiable mush,-,1,,CRO165gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45819,Dannette,Atlantic Croaker,CRO166,CRO166gc,WO3,45757,worm,<0.1,polychaete,1,4,,CRO166gc,0.05,polychaete,TRUE,West,Outer,3
+BOEM,45819,Dannette,Atlantic Croaker,CRO167,CRO167gc,WO3,45757,mush,<0.1,unidentifiable mush,-,1,,CRO167gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45819,Dannette,Atlantic Croaker,CRO169,CRO169gc1,EI1,45791,worm?,0.3,unidentifiable mush,2,3,,CRO169gc,0.3,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO169,CRO169gc2,EI1,45791,biomatter,0.7,biomatter,-,1,,CRO169gc,0.7,biomatter,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO170,CRO170gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,CRO170gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO171,CRO171gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,CRO171gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO173,CRO173gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,CRO173gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO174,CRO174gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,CRO174gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO175,CRO175gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,CRO175gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO176,CRO176gc,EI1,45791,mush,0.2,unidentifiable mush,-,1,,CRO176gc,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO177,CRO177gc,EI1,45791,mush,1.9,unidentifiable mush,-,1,,CRO177gc,1.9,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45819,Dannette,Atlantic Croaker,CRO179,CRO179gc,WO2,45792,mush,0.2,unidentifiable mush,-,1,,CRO179gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45819,Cole,Atlantic Croaker,CRO180,CRO180gc,WO2,45792,vegetation,0.1,biomatter,-,2,,CRO180gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45819,Dannette,Atlantic Croaker,CRO181,CRO181gc,WO2,45792,squid?,0.4,biomatter,2,2,double check if unfreeze ,CRO181gc,0.4,biomatter,TRUE,West,Outer,2
+BOEM,45819,Cole,Atlantic Croaker,CRO182,CRO182gc,WO2,45792,vegetation,<0.1,biomatter,-,1,,CRO182gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45819,Dannette,Atlantic Croaker,CRO184,CRO184gc,WO2,45792,vegetation,<0.1,biomatter,-,1,,CRO184gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45819,Cole,Atlantic Croaker,CRO185,CRO185gc,WO2,45792,sediment/mush,<0.1,detritus,-,1,,CRO185gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45819,Cole,Atlantic Croaker,CRO187,CRO187gc,WO2,45792,fish stomach/mush,0.2,biomatter,1,3,,CRO187gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45820,Sophia,Moonfish,MOF087,MOF087gc,EO1,45224,mush,0.1,unidentifiable mush,-,2,,MOF087gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45820,Ava,Moonfish,MOF088,MOF088gc,EO1,45224,mysis,0.2,biomatter,<20,3,,MOF088gc,0.2,biomatter,TRUE,East,Outer,1
+BOEM,45820,Sophia,Moonfish,MOF089,MOF089gc,EO1,45955,mush,<0.1,unidentifiable mush,-,2,,MOF089gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45820,Cheyenne,Moonfish,MOF090,MOF090gc,EO1,45224,mysis,<0.1,biomatter,<20,2,crustacean based ???,MOF090gc,0.05,biomatter,TRUE,East,Outer,1
+BOEM,45820,Sam,Pinfish,PIN173,PIN173gc,EI1,45224,shrimp,-,crustacean,6,2,no weight???? needs to be weighed and seperated ,PIN173gc,NA,crustacean,FALSE,East,Inner,1
+BOEM,45820,Sam,Pinfish,PIN 173,PIN173gc1,EI1,45224,vegetation,-,biomatter,5,1,"also the seperation on these pics is wrong, retake after redo ",PIN173gc,NA,biomatter,FALSE,East,Inner,1
+BOEM,45820,Ava,Moonfish,MOF075,MOF076gc,EI1,45224,mush,0.2,unidentifiable mush,-,1,,MOF076gc,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45820,Cheyenne,Moonfish,MOF076,MOF076gc,EI1,45224,mush,0.1,unidentifiable mush,-,1,,MOF076gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45820,Sophia,Moonfish,MOF077,MOF077gc,EI1,45224,biomatter,0.1,biomatter,-,2,,MOF077gc,0.1,biomatter,TRUE,East,Inner,1
+BOEM,45820,Cheyenne,Moonfish,MOF078,MOF078gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,MOF078gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45820,Cheyenne,Moonfish,MOF079,MOF079gc,EI1,45224,mush,0.2,unidentifiable mush,-,1,,MOF079gc,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45820,Cheyenne,Moonfish,MOF080,MOF080gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,MOF080gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45820,Sam,Moonfish,MOF081,MOF081,EO1,45224,mysis,0.1,biomatter,20,4,"crustacean based, two or three potential mysid ",MOF,0.1,biomatter,TRUE,East,Outer,1
+BOEM,45820,Cheyenne,Moonfish,MOF082,MOF082,EO1,45224,mush,<0.1,unidentifiable mush,-,1,,MOF,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45820,Sophia,Moonfish,MOF083,MOF083gc,EO1,45224,mysis,0.2,biomatter,>20,3,could probably be identified as mysid? decide if its crustacean or biomatter,MOF083gc,0.2,biomatter,TRUE,East,Outer,1
+BOEM,45820,Cheyenne,Moonfish,MOF084,MOF084gc1,EO1,45224,shrimp,<0.1,crustacean,10,4,,MOF084gc,0.05,crustacean,TRUE,East,Outer,1
+BOEM,45820,Cheyenne,Moonfish,MOF084,MOF084gc2,EO1,45224,mush,<0.1,unidentifiable mush,-,1,,MOF084gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45820,Sam,Moonfish,MOF085,MOF085gc,EO1,45224,mysis,<0.1,biomatter,>20,4,could probably be identified as mysid or copepod ? decide if its crustacean or biomatter,MOF085gc,0.05,biomatter,TRUE,East,Outer,1
+BOEM,45820,Cheyenne,Moonfish,MOF086,MOF086gc,EO1,45224,mush,<0.1,unidentifiable mush,-,1,,MOF086gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45824,Dannette,Atlantic Croaker,CRO189,CRO189gc2,WI2,45792,mush,0.2,unidentifiable mush,-,1,,CRO189gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45824,Dannette,Atlantic Croaker,CRO191,CRO191gc,WI2,45792,mush,0.1,unidentifiable mush,-,1,,CRO191gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45824,Dannette,Atlantic Croaker,CRO195,CRO195gc1,WI2,45792,worm,0.5,polychaete,2,4,,CRO195gc,0.5,polychaete,TRUE,West,Inner,2
+BOEM,45824,Dannette,Atlantic Croaker,CRO198,CRO198gc,WI2,45792,mush,0.3,unidentifiable mush,-,1,,CRO198gc,0.3,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45824,Dalton,Atlantic Croaker,CRO197,CRO197gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,CRO197gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45824,Dannette,Atlantic Croaker,CRO199,CRO199gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,CRO199gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45824,Dannette,Atlantic Croaker,CRO201,CRO201gc,WI1,45792,mush,0.1,unidentifiable mush,-,1,,CRO201gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45824,Dalton,Atlantic Croaker,CRO203,CRO203gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,CRO203gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45825,Dannette,Atlantic Croaker,CRO208,Cro208gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,Cro208gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45825,Cheyenne,Atlantic Bumper,ATB052,ATB052gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB052gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Sophia,Atlantic Bumper,ATB053,ATB053gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB053gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Atlantic Bumper,ATB054,ATB054gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB054gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Sophia,Atlantic Bumper,ATB055,ATB055gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB055gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Atlantic Bumper,ATB056,ATB056gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB056gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Sophia,Atlantic Bumper,ATB057,ATB057gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB057gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Atlantic Bumper,ATB058,ATB058gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB058gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Sophia,Atlantic Bumper,ATB059,ATB059gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB059gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Atlantic Bumper,ATB060,ATB060gc,EI1,45071,mush,<0.1,unidentifiable mush,-,1,,ATB060gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Dalton,Atlantic Bumper,ATB061,ATB061gc,EO1,45224,mush,0.1,unidentifiable mush,-,1,,ATB061gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dalton,Atlantic Bumper,ATB063,ATB063gc,EO1,45224,mush,0.1,unidentifiable mush,-,1,,ATB063gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dannette,Atlantic Bumper,ATB064,ATB064gc,EO1,45224,mush,0.2,unidentifiable mush,-,1,,ATB064gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dalton,Atlantic Bumper,ATB065,ATB065gc,EO1,45224,mush,0.2,unidentifiable mush,-,1,,ATB065gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dannette,Atlantic Bumper,ATB066,ATB066gc,EO1,45224,mush,0.3,unidentifiable mush,-,1,,ATB066gc,0.3,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dannette,Atlantic Bumper,ATB067,ATB067gc,EO1,45224,mush,0.4,unidentifiable mush,-,1,,ATB067gc,0.4,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dalton,Atlantic Bumper,ATB068,ATB068gc,EO1,45224,mush,0.1,unidentifiable mush,-,1,,ATB068gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Dalton,Atlantic Bumper,ATB070,ATB070gc,EO1,45224,mush,<0.1,unidentifiable mush,-,1,,ATB070gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45825,Sophia,Spot,SPO103,SPO103gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,SPO103gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Spot,SPO104,SPO104gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,SPO104gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Dalton,Spot,SPO105,SPO105gc,EI1,45224,-,-,unidentifiable mush,-,-,,SPO105gc,NA,unidentifiable mush,FALSE,East,Inner,1
+BOEM,45825,Cheyenne,Spot,SPO106,SPO106gc,EI1,45224,mush/sand,0.1,detritus,-,1,,SPO106gc,0.1,detritus,TRUE,East,Inner,1
+BOEM,45825,Sophia,Spot,SPO107,SPO107gc,EI1,45224,-,-,unidentifiable mush,-,-,,SPO107gc,NA,unidentifiable mush,FALSE,East,Inner,1
+BOEM,45825,Dalton,Spot,SPO108,SPO108gc,EI1,45224,-,-,unidentifiable mush,-,-,,SPO108gc,NA,unidentifiable mush,FALSE,East,Inner,1
+BOEM,45825,Sophia,Spot,SPO109,SPO109gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,SPO109gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Spot,SPO110,SPO110gc,EI1,45224,-,-,unidentifiable mush,-,-,,SPO110gc,NA,unidentifiable mush,FALSE,East,Inner,1
+BOEM,45825,Dalton,Spot,SPO111,SPO111gc,EI1,45224,mush,0.1,unidentifiable mush,-,1,,SPO111gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45825,Cheyenne,Spot,SPO112,SPO112gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,SPO112gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dannette,Thread Herring,THH087,THH087gc,EI1,45224,mush,0.1,unidentifiable mush,-,1,,THH087gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dalton,Thread Herring,THH088,THH088gc,EI1,45224,mush,0.1,unidentifiable mush,-,1,,THH088gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dannette,Thread Herring,THH089,THH089gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,THH089gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dalton,Thread Herring,THH090,THH090gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,THH090gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dannette,Thread Herring,THH091,THH091gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,THH091gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dannette,Thread Herring,THH093,THH093gc,EI1,45224,mush,0.1,unidentifiable mush,-,1,,THH093gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dalton,Thread Herring,THH092,THH092gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,THH092gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dannette,Thread Herring,THH094,THH094gc,EI1,45224,mush,0.1,unidentifiable mush,-,1,,THH094gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dannette,Striped Anchovy,STA196,STA196gc,EO1,45224,mush,<0.1,unidentifiable mush,-,1,,STA196gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45826,Dalton,Weakfish,WEF029,WEF029gc,EI1,45224,STA,3,unidentifiable mush,1,5,,WEF029gc,3,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45826,Dalton,Weakfish,WEF030,WEF030gc,EI1,45224,mush,<0.1,unidentifiable mush,-,1,,WEF030gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45827,Dalton,Thread Herring,THH097,THH097gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH097gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Cheyenne,Thread Herring,THH098,THH098gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH098gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Sam,Thread Herring,THH108,THH108gc,WI2,45956,mush,0.2,unidentifiable mush,-,1,,THH108gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45827,Dalton,Thread Herring,THH099,THH099gc,WO3,45956,mush,0.1,unidentifiable mush,-,1,,THH099gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Cheyenne,Thread Herring,THH100,THH100gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH100gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Dalton,Thread Herring,THH101,THH101gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH101gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Cheyenne,Thread Herring,THH102,THH102gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH102gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Sophia,Thread Herring,THH107,THH107gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH107gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Ava,Thread Herring,THH103,THH103gc,WO3,45956,mush,0.1,unidentifiable mush,-,1,,THH103gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Cheyenne,Thread Herring,THH104,THH104gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH104gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Dalton,Thread Herring,THH105,THH105gc,WO3,45956,mush,<0.1,unidentifiable mush,-,1,,THH105gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45827,Sophia,Thread Herring,THH109,THH109gc,W12,45225,mush,<0.1,unidentifiable mush,-,1,,THH109gc,0.05,unidentifiable mush,TRUE,West,NA,12
+BOEM,45827,Sophia,Thread Herring,THH110,THH110gc,W12,45225,mush,<0.1,unidentifiable mush,-,1,,THH110gc,0.05,unidentifiable mush,TRUE,West,NA,12
+BOEM,45827,Ava,Thread Herring,THH111,THH111gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH111gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Sophia,Thread Herring,THH112,THH112gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH112gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Ava,Thread Herring,THH113,THH113gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH113gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Cheyenne,Thread Herring,THH106,THH106gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH106gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Ava,Thread Herring,THH116,THH116gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH116gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Dalton,Thread Herring,THH114,THH114gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH114gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Sophia,Thread Herring,THH115,THH115gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH115gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Sohia,Thread Herring,THH117,THH117gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH117gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Cheyenne,Thread Herring,THH118,THH118gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,THH118gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45827,Dalton,Thread Herring,THH119,THH119gc,WO1,45225,mush,0.2,unidentifiable mush,-,1,,THH119gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45828,Cole,Moonfish,MOF093,MOF093gc,WI2,45225,larval shrimp,<0.1,crustacean,-,2,,MOF093gc,0.05,crustacean,TRUE,West,Inner,2
+BOEM,45828,Dalton,Pigfish,PIG015,PIG015gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,PIG015gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45828,Cole,Moonfish,MOF096,MOF096gc,WI2,45225,larval shrimp,<0.1,biomatter,-,2,double check to see if this should be crustacean or biomatter,MOF096gc,0.05,biomatter,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB071,ATB071gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB071gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dalton,Atlantic Bumper,ATB072,ATB072gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB072gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB073,ATB073gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB073gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dalton,Atlantic Bumper,ATB074,ATB074gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB074gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB075,ATB075gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB075gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dalton,Atlantic Bumper,ATB076,ATB076gc,WI2,45225,mush,0.1,unidentifiable mush,-,1,,ATB076gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB077,ATB077gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB077gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB078,ATB078gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB078gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dalton,Atlantic Bumper,ATB079,ATB079gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB079gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB080,ATB080gc,WI2,45225,mush,<0.1,unidentifiable mush,-,1,,ATB080gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45831,Dannette,Atlantic Bumper,ATB081,ATB081gc,WO1,45225,mush,0.1,unidentifiable mush,-,1,,ATB081gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Atlantic Bumper,ATB082,ATB082gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB082gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dannette,Atlantic Bumper,ATB083,ATB083gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB083gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Atlantic Bumper,ATB084,ATB084gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB084gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dannette,Atlantic Bumper,ATB085,ATB085gc,WO1,45225,mush,0.1,unidentifiable mush,-,1,,ATB085gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dannette,Atlantic Bumper,ATB087,ATB087gc,WO1,45225,mush,0.1,unidentifiable mush,-,1,,ATB087gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dannette,Atlantic Bumper,ATB088,ATB088gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB088gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Atlantic Bumper,ATB089,ATB089gc,WO1,45225,mush,0.1,unidentifiable mush,-,1,,ATB089gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dannette,Pinfish,PIN174,PIN174gc,WO1,45225,mush,0.2,unidentifiable mush,-,1,,PIN174gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Pinfish,PIN175,PIN175gc1,WO1,45225,jellyfish?,0.1,biomatter,1,4,"i mean could be a jellyfish, would have to check with an cnidaria person ",PIN175gc,0.1,biomatter,TRUE,West,Outer,1
+BOEM,45831,Dalton,Pinfish,PIN175,PIN175gc2,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,PIN175gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Pinfish,PIN176,PIN176gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,PIN176gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Pinfish,PIN177,PIN177gc,WO1,45225,mush,0.2,unidentifiable mush,-,1,,PIN177gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Pinfish,PIN178,PIN178gc,WO1,45225,mush,0.1,unidentifiable mush,-,1,,PIN178gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45831,Dalton,Pinfish,PIN179,PIN179gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,PIN179gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45832,Dalton,Pinfish,PIN182,PIN182gc,WO1,45225,mush,<0.1,unidentifiable mush,-,1,,PIN182gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45832,Dannette,Weakfish,WEF033,WEF033gc,EI2,45719,mush,<0.1,unidentifiable mush,-,1,,WEF033gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45832,Cheyenne,Weakfish,WEF038,WEF038gc1,WO3,45757,fish,1.3,biomatter,3,4,,WEF038gc,1.3,biomatter,TRUE,West,Outer,3
+BOEM,45832,Cheyenne,Weakfish,WEF038,WEF038gc3,WO3,45757,mush,0.2,unidentifiable mush,-,1,,WEF038gc,0.2,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45832,Sophia,Weakfish,WEF039,WEF039gc1,WO2,45757,mush,1.2,unidentifiable mush,-,1,,WEF039gc,1.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45832,Sophia,Weakfish,WEF039,WEF039gc2,WO2,45757,fish,2.2,biomatter,2,3,"dont need three here, fish isnt identifiable (although prob sta) so biomatter",WEF039gc,2.2,biomatter,TRUE,West,Outer,2
+BOEM,45832,Dannette,Weakfish,WEF046,WEF046gc,WI1,45757,anchovy mush,1.7,biomatter,-,2,cannot tell if anchovy based on picture,WEF046gc,1.7,biomatter,TRUE,West,Inner,1
+BOEM,45832,Dalton,Weakfish,WEF047,WEF047gc,WI1,45757,STA,4.2,striped anchovy,1,4,"can identify by body, missing head ",WEF047gc,4.2,anchovy,TRUE,West,Inner,1
+BOEM,45832,Dannette,Weakfish,WEF049,WEF049gc,WI1,45757,mush,0.1,unidentifiable mush,-,1,,WEF049gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45832,Dalton,Weakfish,WEF050,WEF050gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,WEF050gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45832,Dalton,Weakfish,WEF053,WEF053gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,WEF053gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45832,Cheyenne,Weakfish,WEF052,WEF052gc,WI1,45757,mush,0.1,unidentifiable mush,-,1,,WEF052gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45832,Sophia,Weakfish,WEF051,WEF051gc,WI1,45757,mush,0.2,unidentifiable mush,-,1,,WEF051gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45832,Cheyenne,Spot,SPO122,SPO122gc,EI2,45719,mush,<0.1,unidentifiable mush,-,1,,SPO122gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,46198,Dannette,Striped Anchovy,STA199,STA199gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,STA199gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,46198,Dannette,Striped Anchovy,STA201,STA201gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,STA201gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,46198,Dannette,Striped Anchovy,STA202,STA202gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,STA202gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,46198,Dannette,Striped Anchovy,STA203,STA203gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,STA203gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,46198,Dannette,Striped Anchovy,STA205,STA205gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,STA205gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,46198,Dannette,Striped Anchovy,STA206,STA206gc,EO2,45224,mush,<0.1,unidentifiable mush,-,1,,STA206gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,46198,Dannette,Striped Anchovy,STA208,STA208gc,WO3,45225,mush,<0.1,unidentifiable mush,-,1,,STA208gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,46198,Dalton,Striped Anchovy,STA209,STA209gc,WO3,45225,mush,<0.1,unidentifiable mush,-,1,,STA209gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45834,Dannette,Striped Anchovy,STA214,STA214gc,WO3,45225,mush,0.1,unidentifiable mush,-,1,,STA214gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45834,Dannette,Striped Anchovy,STA216,STA216gc,WO3,45225,mush,<0.1,unidentifiable mush,-,1,,STA216gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45834,Cheyenne,Pinfish,PIN184,PIN184gc,EI3,45225, - , - ,unidentifiable mush,-, - ,,PIN184gc,NA,unidentifiable mush,FALSE,East,Inner,3
+BOEM,45834,Sophia,Pinfish,PIN185,PIN185gc,EI3,45225,mush,0.2,unidentifiable mush,-,1,,PIN185gc,0.2,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45834,Cheyenne,Pinfish,PIN186,PIN186gc,EI3,45225, - , - ,unidentifiable mush,-, - ,,PIN186gc,NA,unidentifiable mush,FALSE,East,Inner,3
+BOEM,45834,Sophia,Pinfish,PIN187,PIN187gc,EI3,45225,mush ,                <0.1,unidentifiable mush,-,1,,PIN187gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45834,Cheyenne,Pinfish,PIN188,PIN188gc,EI3,45225,mush,<0.1,unidentifiable mush,-,1,,PIN188gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45834,Ava,Pinfish,PIN193,PIN193gc,EI2,45225,mush ,0.4,unidentifiable mush,-,2,,PIN193gc,0.4,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45834,Cheyenne,Pinfish,PIN192,PIN192gc,EI2,45225,mush,<0.1,unidentifiable mush,-,1,,PIN192gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45834,Sophia,Pinfish,PIN191,PIN191gc,EI2,45225,mush,0.1,unidentifiable mush,-,1,,PIN191gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45834,Ava,Pinfish,PIN196,PIN196gc,EI2,45225,mush ,0.4,unidentifiable mush,-,2,,PIN196gc,0.4,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45834,Cheyenne,Pinfish,PIN194,PIN194gc,EI2,45225,mush,<0.1,unidentifiable mush,-,1,,PIN194gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45834,Cheyenne,Pinfish,PIN197,PIN197gc,EI2,45225,mush,0.1,unidentifiable mush,-,1,,PIN197gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45834,Sophia,Pinfish,PIN195,PIN195gc,EI2,45225,mush,0.2,unidentifiable mush,-,1,,PIN195gc,0.2,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45835,Dalton,Pinfish,PIN212,PIN212gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,PIN212gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45835,Dalton,Pinfish,PIN213,PIN213gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,PIN213gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45838,Dannette,Pinfish,PIN202,PIN202gc,EO2,45719,mush,<0.1,unidentifiable mush,-,1,,PIN202gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45838,Dalton,Pinfish,PIN203,PIN203gc,EO2,45719,mush,<0.1,unidentifiable mush,-,1,,PIN203gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45838,Dalton,Pinfish,PIN207,PIN207gc,EO2,45719,mush,<0.1,unidentifiable mush,-,1,,PIN207gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45838,Dalton,Pinfish,PIN210,PIN210gc,WI3,45757,mush,0.1,unidentifiable mush,-,1,,PIN210gc,0.1,unidentifiable mush,TRUE,West,Inner,3
+BOEM,45838,Dannette,Pinfish,PIN227,PIN227gc1,WO1,45757,mush,0.1,unidentifiable mush,-,1,,PIN227gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN227,PIN227gc2,WO1,45757,shrimp,<0.1,crustacean,1,5,,PIN227gc,0.05,crustacean,TRUE,West,Outer,1
+BOEM,45838,Dalton,Pinfish,PIN228,PIN228gc,WO1,45757,sediment?,0.4,detritus,-,2,no pic ,PIN228gc,0.4,detritus,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN229,PIN229gc,WO1,45757,mush,0.2,unidentifiable mush,-,1,,PIN229gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN230,PIN230gc,WO1,45757,mush,0.2,unidentifiable mush,-,1,,PIN230gc,0.2,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN230,PIN230gc,WO1,45757,Shells,<0.1,mollusc,-,1,,PIN230gc,0.05,mollusca,TRUE,West,Outer,1
+BOEM,45838,Dalton,Pinfish,PIN233,PIN233gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,PIN233gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dalton,Pinfish,PIN231,PIN231gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,PIN231gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN232,PIN232gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,PIN232gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN234,PIN234gc,WO1,45757,sediment,0.5,detritus,-,1,,PIN234gc,0.5,detritus,TRUE,West,Outer,1
+BOEM,45838,Dannette,Pinfish,PIN235,PIN235gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,PIN235gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45838,Dalton,Pinfish,PIN224,PIN224gc,WO2,45757,Shells,<0.1,mollusc,2,5,are these both shells? or is one biomatter/mush ,PIN224gc,0.05,mollusca,TRUE,West,Outer,2
+BOEM,45839,Dalton,Pinfish,PIN226,PIN226gc1,WO2,45757,shell,<0.1,mollusc,1,5,,PIN226gc,0.05,mollusca,TRUE,West,Outer,2
+BOEM,45839,Dalton,Pinfish,PIN226,PIN226gc2,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,PIN226gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45839,Cheyenne,Spot,SPO133,SPO133gc,WO3,45757,mush,<0.1,unidentifiable mush,-,1,,SPO133gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45839,Dannette,Spot,SPO136,SPO136gc,WO3,45757,mush,<0.1,unidentifiable mush,-,1,,SPO136gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45839,Dalton,Spot,SPO143,SPO143gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO143gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Cheyenne,Spot,SPO141,SPO141gc,WO3,45757,mush/sand,<0.1,detritus,-,1,,SPO141gc,0.05,detritus,TRUE,West,Outer,3
+BOEM,45839,Sophia,Spot,SPO139,SPO139gc,WO3,45757,sand,0.3,detritus,-,2,,SPO139gc,0.3,detritus,TRUE,West,Outer,3
+BOEM,45839,Dannette,Spot,SPO144,SPO144gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO144gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Sophia,Spot,SPO145,SPO145gc1,WI2,45757,sand,0.2,detritus,-,4,,SPO145gc,0.2,detritus,TRUE,West,Inner,2
+BOEM,45839,Sophia,Spot,SPO145,SPO145gc2,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO145gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Cheyenne,Spot,SPO146,SPO146gc,WI2,45757,sand,<0.1,detritus,-,4,"this pic is bad, retake if you defrost but looks like detritus or biomatter",SPO146gc,0.05,detritus,TRUE,West,Inner,2
+BOEM,45839,Dannette,Spot,SPO147,SPO147gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO147gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Dalton,Spot,SPO148,SPO148gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO148gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Cheyenne,Spot,SPO150,SPO150gc,WI2,45757,sand,<0.1,detritus,-,4,,SPO150gc,0.05,detritus,TRUE,West,Inner,2
+BOEM,45839,Sophia,Spot,SPO151,SPO151gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO151gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Dannette,Spot,SPO153,SPO153gc,WO2,45757,mush,0.2,unidentifiable mush,-,1,,SPO153gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45839,Dalton,Spot,SPO152,SPO152gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO152gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45839,Dannette,Spot,SPO154,SPO154gc,WO2,45757,Larvae?,<0.1,crustacean,1,4,,SPO154gc,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45839,Dalton,Spot,SPO155,SPO155gc,WO2,45757,mush w/ shell,0.1,detritus,-,1,,SPO155gc,0.1,detritus,TRUE,West,Outer,2
+BOEM,45839,Cheyenne,Spot,SPO156,SPO156gc,WO2,45757,sand,0.1,detritus,-,4,,SPO156gc,0.1,detritus,TRUE,West,Outer,2
+BOEM,45839,Sophia,Spot,SPO157,SPO157gc,WO2,45757,sand,0.1,detritus,-,4,,SPO157gc,0.1,detritus,TRUE,West,Outer,2
+BOEM,45839,Cheyenne,Spot,SPO162,SPO162gc1,WO2,45757,sand,<0.1,detritus,-,4,,SPO162gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45839,Cheyenne,Spot,SPO162,SPO162gc2,WO2,45757,mush,<0.1,unidentifiable mush,-,1,,SPO162gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45839,Dalton,Spot,SPO163,SPO163gc,WI1,45757,sand w/ mush,0.1,detritus,-,1,,SPO163gc,0.1,detritus,TRUE,West,Inner,1
+BOEM,45839,Dalton,Spot,SPO164,SPO164gc,WI1,45757,sand w/ mush,<0.1,detritus,-,1,,SPO164gc,0.05,detritus,TRUE,West,Inner,1
+BOEM,45839,Cheyenne,Spot,SPO165,SPO165gc,WI1,45757,sand w/ mush,0.1,detritus,-,1,,SPO165gc,0.1,detritus,TRUE,West,Inner,1
+BOEM,45839,Dalton,Spot,SPO167,SPO167gc,WI1,45757,sand w/ mush,<0.1,detritus,-,1,,SPO167gc,0.05,detritus,TRUE,West,Inner,1
+BOEM,45839,Cheyenne,Spot,SPO166,SPO166gc,WI1,45757,sand w/ mush,<0.1,detritus,-,1,,SPO166gc,0.05,detritus,TRUE,West,Inner,1
+BOEM,45840,Dalton,Spot,SPO170,SPO170gc,WO1,45757,mush w/ sand,<0.1,detritus,-,1,,SPO170gc,0.05,detritus,TRUE,West,Outer,1
+BOEM,45840,Dannette,Spot,SPO171,SPO171gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,SPO171gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dalton,Spot,SPO172,SPO172gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,SPO172gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dannette,Spot,SPO173,SPO173gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,SPO173gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dannette,Spot,SPO176,SPO176gc,WO1,45757,mush,0.1,unidentifiable mush,-,1,,SPO176gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dalton,Spot,SPO177,SPO177gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,SPO177gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dannette,Spot,SPO178,SPO178gc,WO1,45757,mush,0.1,unidentifiable mush,-,1,,SPO178gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dalton,Spot,SPO179,SPO179gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,SPO179gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dannette,Spot,SPO181,SPO181gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,SPO181gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45840,Dannette,Atlantic Croaker,CRO211,CRO211gc,WO1,45757,mush,<0.1,unidentifiable mush,-,1,,CRO211gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45841,Dannette,Moonfish,MOF114,MOF114gc,EI2,45719,mush,<0.1,unidentifiable mush,-,1,,MOF114gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45841,Cheyenne,Striped Anchovy,STA217,STA217gc,WI2,45956,mush,<0.1,unidentifiable mush,-,1,,STA217gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Sophia,Striped Anchovy,STA219,STA219gc,WI2,45956,mush,<0.1,unidentifiable mush,-,1,,STA219gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Cheyenne ,Striped Anchovy,STA220,STA220gc,WI2,45956,mush,0.1,unidentifiable mush,-,1,,STA220gc,0.1,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Dannette,Striped Anchovy,STA221,STA221gc,WI2,45956,mush,<0.1,unidentifiable mush,-,1,,STA221gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Dannette,Striped Anchovy,STA222,STA222gc,WI2,45956,mush,<0.1,unidentifiable mush,-,1,,STA222gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Ava,Striped Anchovy,STA225,STA225gc,WI2,45956,mush,<0.1,unidentifiable mush,-,1,,STA225gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Ava,Striped Anchovy,STA226,STA226gc,WI2,45956,mush,<0.1,unidentifiable mush,-,1,,STA226gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45841,Ava,Striped Anchovy,STA229,STA229gc,EI3,45719,mush,0.1,unidentifiable mush,-,1,,STA229gc,0.1,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45841,Ava,Striped Anchovy,STA230,STA230gc,EI2,45719,mush,<0.1,unidentifiable mush,-,1,,STA230gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45841,Ava,Striped Anchovy,STA233,STA233gc,EI3,45719,mush,<0.1,unidentifiable mush,-,1,,STA233gc,0.05,unidentifiable mush,TRUE,East,Inner,3
+BOEM,45847,Dannette,Striped Anchovy,STA248,STA248gc,EO1,45719,mush,<0.1,unidentifiable mush,-,1,,STA248gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45847,Dannette,Striped Anchovy,STA249,STA249gc,EO1,45719,mush,<0.1,unidentifiable mush,-,1,,STA249gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45847,Dannette,Striped Anchovy,STA250,STA250gc,EO1,45719,mush,<0.1,unidentifiable mush,-,1,,STA250gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45848,Sophia ,Striped Anchovy,STA251,STA251gc,EO1,45719,mush,0.2,unidentifiable mush,-,1,,STA251gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45848,Ava,Striped Anchovy,STA252,STA252gc,EO1,45719,mush,<0.1,unidentifiable mush,-,1,,STA252gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45848,Ava,Striped Anchovy,STA253,STA253gc,EO1,45719,mush,<0.1,unidentifiable mush,-,1,,STA253gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45848,Sophia ,Striped Anchovy,STA254,STA254gc,WO3,45757,mush,0.1,unidentifiable mush,-,1,,STA254gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45848,Ava,Striped Anchovy,STA255,STA255gc,WO3,45757,mush,0.2,unidentifiable mush,-,1,,STA255gc,0.2,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45848,Sophia,Striped Anchovy,STA256,STA256gc,WO3,45757,mush,0.2,unidentifiable mush,-,1,,STA256gc,0.2,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45848,Ava,Striped Anchovy,STA257,STA257gc,WO3,45757,mush,0.1,unidentifiable mush,-,1,,STA257gc,0.1,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45853,Grace,Striped Anchovy,STA260,STA260gc,WO3,45757,mush,<0.1,unidentifiable mush,-,1,,STA260gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45853,Cheyenne,Striped Anchovy,STA259,STA259gc,WO3,45757,mush,<0.1,unidentifiable mush,-,1,,STA259gc,0.05,unidentifiable mush,TRUE,West,Outer,3
+BOEM,45853,Cheyenne,Striped Anchovy,STA264,STA264gc,WI3,45757,mush,0.1,unidentifiable mush,-,1,,STA264gc,0.1,unidentifiable mush,TRUE,West,Inner,3
+BOEM,45853,Cheyenne,Striped Anchovy,STA268,STA268gc,WI3,45757,mush,<0.1,unidentifiable mush,-,1,,STA268gc,0.05,unidentifiable mush,TRUE,West,Inner,3
+BOEM,45855,Gracie,Striped Anchovy,STA271,STA271gc,WO2,45757,mush,0.1,unidentifiable mush,-,1,,STA271gc,0.1,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45855,Cheyenne,Striped Anchovy,STA272,STA272gc,WO2,45757,mush/sand,0.1,detritus,-,1,no picture found ,STA272gc,0.1,detritus,TRUE,West,Outer,2
+BOEM,45855,Gracie,Striped Anchovy,STA273,STA273gc,WO2,45757,mush/shrimp?,<0.1,unidentifiable mush,1?,1,mush ,STA273gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45855,Ava,Striped Anchovy,STA275,STA275gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA275gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45855,Gracie,Striped Anchovy,STA276,STA276gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,idk if it is enough ,STA276gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45855,Ava,Striped Anchovy,STA277,STA277gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA277gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45855,Gracie,Striped Anchovy,STA278,STA278gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA278gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45855,Gracie,Striped Anchovy,STA279,STA279gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA279gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45855,Ava,Striped Anchovy,STA280,STA280gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA280gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45855,Ava ,Striped Anchovy,STA281,STA281gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA281gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA282,STA282gc,WI1,45757,mush,0.2,unidentifiable mush,-,1,,STA282gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA283,STA283gc,WI1,45757,mush,0.1,unidentifiable mush,-,1,,STA283gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA284,STA284gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,dark in color,STA284gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA285,STA285gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA285gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA286,STA286gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA286gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA287,STA287gc,WI1,45757,mush,<0.1,unidentifiable mush,-,1,,STA287gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45856,Gracie,Striped Anchovy,STA289,STA289gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,STA289gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45859,Dannette,Spot,SPO183,SPO183gc,EO1,45791,mush,0.1,unidentifiable mush,-,1,,SPO183gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45859,Dannette,Spot,SPO184,SPO184gc,EO1,45791,mush,<0.1,unidentifiable mush,-,1,,SPO184gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45859,Dannette,Pigfish,PIG016,PIG016gc,EO1,45791,mush,0.2,unidentifiable mush,-,1,,PIG016gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45859,Dannette,Pigfish,PIG017,PIG017gc,EO1,45791,invert?,0.2,biomatter,-,2,,PIG017gc,0.2,biomatter,TRUE,East,Outer,1
+BOEM,45859,Gracie,Striped Anchovy,STA291,STA291gc,WI2,45757,mush,<0.1,unidentifiable mush,-,1,,STA291gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45859,Dannette,Spot,SPO185,SPO185gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,SPO185gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Gracie,Spot,SPO186,SPO186gc,EI1,45791,mush w/ sand,0.2,detritus,-,1,,SPO186gc,0.2,detritus,TRUE,East,Inner,1
+BOEM,45859,Dannette,Spot,SPO187,SPO187gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,SPO187gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Gracie,Spot,SPO188,SPO188gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,SPO188gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Dannette,Spot,SPO189,SPO189gc,EI1,45791,mush w/ sand,0.1,detritus,-,1,,SPO189gc,0.1,detritus,TRUE,East,Inner,1
+BOEM,45859,Gracie,Spot,SPO190,SPO190gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,SPO190gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Dannette,Spot,SPO191,SPO191gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,SPO191gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Dannette,Spot,SPO192,SPO192gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,SPO192gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Gracie,Spot,SPO193,SPO193gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,SPO193gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45859,Gracie,Spot,SPO194,SPO194gc,EI1,45791,mush,0.1,unidentifiable mush,-,1,,SPO194gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45860,Dannette,Moonfish,MOF102,MOF102gc,WI1,45225,biomatter,<0.1,biomatter,-,1,,MOF102gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45860,Sam,Moonfish,MOF103,MOF103gc,WI1,45225,micen,<0.1,crustacean,6?,3,"can identify these as probably mysid like thing, but should it be biomatter? ask sam ",MOF103gc,0.05,crustacean,TRUE,West,Inner,1
+BOEM,45860,Gracie,Spot,SPO195,SPO195gc,WO2,45792,mush w/ sand,<0.1,detritus,-,1,,SPO195gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45860,Gracie,Spot,SPO196,SPO196gc,WO2,45792,mush w/ sand,<0.1,detritus,-,1,,SPO196gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45860,Ava,Spot,SPO198,SPO198gc,WO2,45792,mush,0.5,unidentifiable mush,-,1,,SPO198gc,0.5,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45860,Sam,Moonfish,MOF107,MOF107gc,WI1,45225,micen,<0.1,biomatter,6,3,,MOF107gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45860,Gracie,Spot,SPO199,SPO199gc,WO2,45792,mush w/ sand,<0.1,detritus,-,1,,SPO199gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45860,Ava,Spot,SPO200,SPO200gc,WO2,45792,mush,<0.1,unidentifiable mush,-,1,,SPO200gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45860,Sam,Moonfish,MOF108,MOF108gc,WI1,45225,micen,<0.1,biomatter,~4,2,,MOF108gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45860,Gracie,Spot,SPO201,SPO201gc,WO2,45792,mush,<0.1,unidentifiable mush,-,1,,SPO201gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45860,Ava,Spot,SPO202,SPO202gc,WO2,45792,mush,0.2,unidentifiable mush,-,1,,SPO202gc,0.2,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45860,Ava,Spot,SPO203,SP203gc,WO2,45792,mush,<0.1,unidentifiable mush,-,1,,SP203gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45860,Gracie,Moonfish,MOF109,MOF109gc,WI1,45225,micen,<0.1,biomatter,2,2,,MOF109gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45860,Ava,Moonfish,MOF111,MOF111gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,MOF111gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45861,Gracie,Spot,SPO205,SPO205gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,SPO205gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45861,Gracie,Spot,SPO206,SPO206gc,WI2,45792,mush w/ sand,<0.1,detritus,-,1,,SPO206gc,0.05,detritus,TRUE,West,Inner,2
+BOEM,45861,Gracie,Spot,SPO207,SPO207gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,SPO207gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45861,Gracie,Spot,SPO209,SPO209gc,WI2,45792,mush w/ sand ,<0.1,detritus,-,1,,SPO209gc,0.05,detritus,TRUE,West,Inner,2
+BOEM,45861,Gracie,Spot,SPO211,SPO211gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,SPO211gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45861,Gracie,Spot,SPO212,SPO212gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,SPO212gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45861,Gracie,Spot,SPO214,SPO214gc,WI1,45792,mush w/ sand ,<0.1,detritus,-,1,,SPO214gc,0.05,detritus,TRUE,West,Inner,1
+BOEM,45861,Gracie,Spot,SPO217,SPO217gc,WI1,45792,micen w/ mush ,<0.1,biomatter,1,2,,SPO217gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45861,Sam,Spot,SPO221,SPO221gc,WI1,45792,biomatter,<0.1,biomatter,1,2,,SPO221gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45861,Sam,Spot,SPO224,SPO224gc,WI1,45792,micen,<0.1,biomatter,4,1,,SPO224gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45862,Gracie,Atlantic Bumper,ATB100,ATB100gc,WO2,45792,micen,0.1,crustacean,>100,3,,ATB100gc,0.1,crustacean,TRUE,West,Outer,2
+BOEM,45862,Cheyenne,Atlantic Bumper,ATB101,ATB101gc1,WO2,45792,micen,0.1,crustacean,>50,3,,ATB101gc,0.1,crustacean,TRUE,West,Outer,2
+BOEM,45862,Cheyenne,Atlantic Bumper,ATB101,ATB101gc2,WO2,45792,sand?,0.2,detritus,-,1,,ATB101gc,0.2,detritus,TRUE,West,Outer,2
+BOEM,45862,Gracie,Atlantic Bumper,ATB102,ATB102gc,WO1,45792,mush/sand,0.2,detritus,-,1,,ATB102gc,0.2,detritus,TRUE,West,Outer,1
+BOEM,45862,Sophia,Atlantic Bumper,ATB103,ATB103gc,WO1,45792,biomatter,0.1,biomatter,-,1,,ATB103gc,0.1,biomatter,TRUE,West,Outer,1
+BOEM,45862,Cheyenne,Atlantic Bumper,ATB104,ATB104gc,WO1,45792,micen/shrimp?,0.2,biomatter,>100,3,,ATB104gc,0.2,biomatter,TRUE,West,Outer,1
+BOEM,45862,Cheyenne,Atlantic Bumper,ATB106,ATB106gc,WO1,45792,micen/sand?,0.2,biomatter,>50,2,,ATB106gc,0.2,biomatter,TRUE,West,Outer,1
+BOEM,45862,Sophia,Atlantic Bumper,ATB105,ATB105gc,WO1,45792,biomatter,0.2,biomatter,-,1,,ATB105gc,0.2,biomatter,TRUE,West,Outer,1
+BOEM,45862,Ava,Thread Herring,THH132,THH132gc,EO2,45791,mush,0.1,unidentifiable mush,-,1,,THH132gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45862,Gracie,Moonfish,MOF112,MOF112gc,EO2,45791,micen,0.1,crustacean,20,3,,MOF112gc,0.1,crustacean,TRUE,East,Outer,2
+BOEM,45862,Ava,Thread Herring,THH134,THH134gc,EO2,45791,mush,0.2,unidentifiable mush,-,1,(not sure what happened to THH133?) ,THH134gc,0.2,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45862,Gracie,Lizardfish,LIZ019,LIZ019gc,EI1,45791,mush/seeds?,0.1,biomatter,-,1,,LIZ019gc,0.1,biomatter,TRUE,East,Inner,1
+BOEM,45862,Cheyenne,Thread Herring,THH135,THH135gc,EO2,45791,biomatter/sand?,0.2,detritus,-,1,,THH135gc,0.2,detritus,TRUE,East,Outer,2
+BOEM,45863,Gracie,Thread Herring,THH121,THH121gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,THH121gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45863,Sam ,Thread Herring,THH122,THH122gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,THH122gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45863,Gracie,Thread Herring,THH123,THH123gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,THH123gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45863,Gracie,Thread Herring,THH124,THH124gc,WI1,45225,mush,0.1,unidentifiable mush,-,1,,THH124gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45866,Gracie,Thread Herring,THH141,THH141gc,WI2,45792,mush,0.2,biomatter,-,1,,THH141gc,0.2,biomatter,TRUE,West,Inner,2
+BOEM,45866,Gracie,Thread Herring,THH143,THH143gc,WI2,45792,mush,0.2,unidentifiable mush,-,1,,THH143gc,0.2,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45867,Cheyenne,Thread Herring,THH146,THH146gc,WI1,45792,mush,0.2,unidentifiable mush,-,1,,THH146gc,0.2,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45867,Gracie,Thread Herring,THH145,THH145gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,THH145gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45867,Gracie,Thread Herring,THH148,THH148gc,WI1,45792,mush,0.9,unidentifiable mush,-,1,,THH148gc,0.9,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45867,Gracie,Thread Herring,THH152,THH152gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,THH152gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45867,Sophia,Thread Herring,THH151,THH151gc,WI1,45792,mush,0.1,unidentifiable mush,-,1,,THH151gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45867,Cheyenne,Striped Anchovy,STA293,STA293gc,EO1,45791,mush,<0.1,unidentifiable mush,-,1,,STA293gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45867,Sophia,Striped Anchovy,STA292,STA292gc,EO2,45791,mush,<0.1,unidentifiable mush,-,1,,STA292gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45867,Gracie,Striped Anchovy,STA294,STA294gc,EO1,45791,mush,0.2,unidentifiable mush,-,1,,STA294gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45867,Gracie,Striped Anchovy,STA297,STA297gc,EI2,45791,mush,0.1,unidentifiable mush,-,1,,STA297gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45867,Sophia,Striped Anchovy,STA298,STA298gc,EI2,45791,biomatter,<0.1,biomatter,-,1,,STA298gc,0.05,biomatter,TRUE,East,Inner,2
+BOEM,45867,Cheyenne,Striped Anchovy,STA301,STA301gc,EI2,45791,mush,<0.1,unidentifiable mush,-,1,,STA301gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45869,Gracie,Striped Anchovy,STA302,STA302gc,EI2,45791,mush,<0.1,unidentifiable mush,-,1,,STA302gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45869,Gracie,Striped Anchovy,STA303,STA303gc,EI2,45791,mush,<0.1,unidentifiable mush,-,1,,STA303gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45869,Ava,Striped Anchovy,STA304,STA304gc,EI2,45791,mush,<0.1,unidentifiable mush,-,1,,STA304gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45869,Gracie,Striped Anchovy,STA305,STA305gc,EI2,45791,mush,<0.1,unidentifiable mush,-,1,,STA305gc,0.05,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45869,Ava,Striped Anchovy,STA306,STA306gc,EI2,45791,mush,0.2,unidentifiable mush,-,1,,STA306gc,0.2,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45869,Gracie,Striped Anchovy,STA307,STA307gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA307gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45869,Ava,Striped Anchovy,STA308,STA308gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA308gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45869,Gracie,Striped Anchovy,STA309,STA309gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA309gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45869,Gracie,Striped Anchovy,STA310,STA310gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA310gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45869,Ava,Striped Anchovy,STA311,STA311gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA311gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45869,Gracie,Striped Anchovy,STA312,STA312gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA312gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45869,Ava,Striped Anchovy,STA313,STA313gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA313gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45870,Gracie ,Pinfish,PIN237,PIN237gc,EO3,45791,mush,0.2,unidentifiable mush,-,1,,PIN237gc,0.2,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45870,Gracie ,Pinfish,PIN239,PIN239gc,EO3,45791,mush + sand ,<0.1,detritus,-,1,no pic ,PIN239gc,0.05,detritus,TRUE,East,Outer,3
+BOEM,45870,Gracie ,Pinfish,PIN240,PIN240gc,EO3,45791,mush + rocks + sand  ,0.1,detritus,-,1,no pic ,PIN240gc,0.1,detritus,TRUE,East,Outer,3
+BOEM,45870,Gracie ,Pinfish,PIN241,PIN241gc,EO3,45791,mush,0.3,unidentifiable mush,-,1,,PIN241gc,0.3,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45870,Gracie ,Pinfish,PIN242,PIN242gc1,EO3,45791,biomatter,<0.1,biomatter,-,1,,PIN242gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45870,Gracie ,Pinfish,PIN242,PIN242gc2,EO3,45791,polychaete ,<0.1,polycheate,1,3,posey approved,PIN242gc,0.05,polychaete,TRUE,East,Outer,3
+BOEM,45870,Gracie,Striped Anchovy,STA314,STA314gc,EI1,45791,mush + mysid ,0.1,biomatter,3,2,,STA314gc,0.1,biomatter,TRUE,East,Inner,1
+BOEM,45870,Gracie,Striped Anchovy,STA315,STA315gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA315gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45870,Gracie,Striped Anchovy,STA316,STA316gc,EI1,45791,mush,<0.1,unidentifiable mush,-,1,,STA316gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45873,Gracie ,Pinfish,PIN243,PIN243gc,EO3,45791,mush,0.1,unidentifiable mush,-,1,,PIN243gc,0.1,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45873,Gracie ,Pinfish,PIN244,PIN244gc,EO3,45791,mush + sand + biomatter,0.1,biomatter,-,1,,PIN244gc,0.1,biomatter,TRUE,East,Outer,3
+BOEM,45873,Gracie ,Pinfish,PIN245,PIN245gc,EO3,45791,mush,<0.1,unidentifiable mush,-,1,,PIN245gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45873,Gracie ,Pinfish,PIN246,PIN246gc,EO3,45791,mush + biomatter,<0.1,biomatter,-,1,,PIN246gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45874,Cheyenne,Striped Anchovy,STA317,STA317gc,WO3,45792,biomatter?,<0.1,biomatter,-,1,,STA317gc,0.05,biomatter,TRUE,West,Outer,3
+BOEM,45874,Cheyenne,Striped Anchovy,STA318,STA318gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA318gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Cheyenne,Striped Anchovy,STA319,STA319gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA319gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Cheyenne,Striped Anchovy,STA321,STA321gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA321gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Ava,Striped Anchovy,STA320,STA320gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA320gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Ava,Striped Anchovy,STA322,STA322gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA322gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Cheyenne,Striped Anchovy,STA325,STA325gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA325gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Ava,Striped Anchovy,STA324,STA324gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA324gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Ava,Striped Anchovy,STA326,STA326gc,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA326gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Ava,Striped Anchovy,STA327,STA327gc ,WO2,45792,mush ,<0.1,unidentifiable mush,-,1,,STA327gc ,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45874,Cheyenne,Pinfish,PIN248,PIN248gc,WI1,45792,mush ,<0.1,unidentifiable mush,-,1,,PIN248gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45875,Gracie,Striped Anchovy,STA328,STA328gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA328gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA329,STA329gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA329gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA331,STA331gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA331gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA332,STA332gc,WI2,45792,mush + biomatter,<0.1,biomatter,-,1,,STA332gc,0.05,biomatter,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA333,STA333gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA333gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA334,STA334gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA334gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA335,STA335gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA335gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA336,STA336gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA336gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Striped Anchovy,STA337,STA337gc,WI2,45792,mush,<0.1,unidentifiable mush,-,1,,STA337gc,0.05,unidentifiable mush,TRUE,West,Inner,2
+BOEM,45875,Gracie,Pinfish,PIN250,PIN250gc,WI1,45792,mush + worm,<0.1,biomatter,1,2,,PIN250gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45875,Gracie,Pinfish,PIN251,PIN251gc1,WI1,45792,mush + worms ,<0.1,biomatter,-,2,,PIN251gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45875,Gracie,Pinfish,PIN251,PIN251gc2,WI1,45792,mush + worms ,<0.1,polychaete,3,2,,PIN251gc,0.05,polychaete,TRUE,West,Inner,1
+BOEM,45876,Cheyenne,Striped Anchovy,STA338,STA338gc,WI1,45792,mush,0.1,unidentifiable mush,-,1,,STA338gc,0.1,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45876,Gracie,Striped Anchovy,STA339,STA339gc,WI1,45792,mush/ mysid,<0.1,biomatter,2,2,,STA339gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45876,Gracie,Striped Anchovy,STA340,STA340gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,STA340gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45876,Cheyenne,Striped Anchovy,STA341,STA341gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,STA341gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45876,Gracie,Striped Anchovy,STA342,STA342gc,WI1,45792,mush/mysid,<0.1,biomatter,5,2,,STA342gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45876,Gracie,Striped Anchovy,STA344,STA344gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,STA344gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45876,Gracie,Striped Anchovy,STA345,STA345gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,STA345gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45876,Cheyenne,Striped Anchovy,STA346,STA346gc,WI1,45792,mush,<0.1,unidentifiable mush,-,1,,STA346gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45876,Gracie,Pinfish,PIN253,PIN253gc,EO2,45791,mush,0.1,unidentifiable mush,-,1,,PIN253gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45876,Cheyenne,Pinfish,PIN254,PIN254gc,EO2,45791,mush,0.1,unidentifiable mush,-,1,watery,PIN254gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45876,Ava,Pinfish,PIN255,PIN255gc,EO2,45791,mush,0.1,unidentifiable mush,-,1,,PIN255gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45876,Gracie,Pinfish,PIN256,PIN256gc1,EO2,45791,biomatter,<0.1,biomatter,-,1,,PIN256gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45876,Gracie,Pinfish,PIN256,PIN256gc2,EO2,45791,polychaete ,<0.1,polychaete,1,3,,PIN256gc,0.05,polychaete,TRUE,East,Outer,2
+BOEM,45876,Ava,Pinfish,PIN258,PIN258gc,EO2,45791,mush/biomatter?,0.1,biomatter,-,2,picture taken ,PIN258gc,0.1,biomatter,TRUE,East,Outer,2
+BOEM,45876,Cheyenne,Pinfish,PIN260,PIN260gc,EO2,45791,mush,<0.1,unidentifiable mush,-,1,,PIN260gc,0.05,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45876,Cheyenne,Pinfish,PIN261,PIN261gc,EO2,45791,veg?,<0.1,biomatter,-,1,no picture,PIN261gc,0.05,biomatter,TRUE,East,Outer,2
+BOEM,45876,Ava,Pinfish,PIN262,PIN262gc,EO2,45791,mush,0.1,unidentifiable mush,-,1,GoPro/picturen taken,PIN262gc,0.1,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45876,Gracie,Pinfish,PIN263,PIN263gc,WO2,45791,mush/egg?,0.2,biomatter,-,2,,PIN263gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45876,Gracie,Pinfish,PIN266,PIN266gc1,WO2,45791,mush/shell,<0.1,biomatter,-,1,,PIN266gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45876,Gracie,Pinfish,PIN266,PIN266gc2,WO2,45791,mush/shell,<0.1,mollusca,,,,PIN266gc,0.05,mollusca,TRUE,West,Outer,2
+BOEM,45876,Cheyenne,Pinfish,PIN265,PIN265gc,WO2,45791,sand/mush,0.1,detritus,-,1,,PIN265gc,0.1,detritus,TRUE,West,Outer,2
+BOEM,45876,Ava,Pinfish,PIN264,PIN264gc,WO2,45791,sand/mush,0.5,detritus,-,2,,PIN264gc,0.5,detritus,TRUE,West,Outer,2
+BOEM,45876,Gracie,Pinfish,PIN267,PIN267gc,WO2,45791,anchovy,1,anchovy,1,4,,PIN267gc,1,anchovy,TRUE,West,Outer,2
+BOEM,45877,Gracie,Pinfish,PIN273,PIN273gc,EO1,45792,mush + mysid,<0.1,crustacean,2,2,prob mush ,PIN273gc,0.05,crustacean,TRUE,East,Outer,1
+BOEM,45877,Gracie,Pinfish,PIN275,PIN275gc,EO1,45792,mush + biomatter,0.2,biomatter,-,1,,PIN275gc,0.2,biomatter,TRUE,East,Outer,1
+BOEM,45877,Gracie,Pinfish,PIN277,PIN277gc,EO1,45792,mush,<0.1,unidentifiable mush,-,1,,PIN277gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45877,Gracie,Pinfish,PIN279,PIN279gc,EO1,45792,mush,0.1,unidentifiable mush,-,1,,PIN279gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45877,Gracie,Pinfish,PIN282,PIN282gc,EO2,45434,mush,0.3,unidentifiable mush,-,1,,PIN282gc,0.3,unidentifiable mush,TRUE,East,Outer,2
+BOEM,45880,Gracie,Pinfish,PIN283,PIN283gc,EI1,45791,green mush,0.7,biomatter,-,1,crusta? should we make a vegetation category ,PIN283gc,0.7,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN284,PIN284gc1,EI1,45791,biomatter,0.4,biomatter,-,2,,PIN284gc,0.4,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN284,PIN284gc2,EI1,45791,crustacean ,0.1,crustacean,2,2,,PIN284gc,0.1,crustacean,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN285,PIN285gc,EI1,45791,mush/biomatter,<0.1,biomatter,-,1,,PIN285gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN286,PIN286gc,EI1,45791,shrimp/mush,0.2,biomatter,1,3,this defintely has an echinoderm in it ... ? ,PIN286gc,0.2,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN287,PIN287gc,EI1,45791,veg?,0.5,biomatter,-,1,,PIN287gc,0.5,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN289,PIN289gc1,EI1,45791,britterester?/mush,<0.1,biomatter,-,1,,PIN289gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN289,PIN289gc2,EI1,45791,britterester?/mush,<0.1,echinoderm,1,3,,PIN289gc,0.05,echinoderm,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN290,PIN290gc,EI1,45791,veg?,<0.1,biomatter,-,1,,PIN290gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN291,PIN291gc1,EI1,45791,biomatter,<0.1,biomatter,-,1,,PIN291gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN291,PIN291gc2,EI1,45791,crustacean ,0.1,crustcacean,1,4,,PIN291gc,0.1,crustacean,TRUE,East,Inner,1
+BOEM,45880,Gracie,Pinfish,PIN292,PIN292gc,EI1,45791,biomatter,0.1,biomatter,-,1,,PIN292gc,0.1,biomatter,TRUE,East,Inner,1
+BOEM,45880,Cheyenne,Pinfish,PIN293,PIN293gc1,WO1,45792,shells,1,mollusca,19,5,,PIN293gc,1,mollusca,TRUE,West,Outer,1
+BOEM,45880,Cheyenne,Pinfish,PIN293,PIN293gc2,WO1,45792,mush,1.9,unidentifiable mush,34,5,from the intestines,PIN293gc,1.9,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Gracie,Pinfish,PIN294,PIN294gc,WO1,45792,mush,<0.1,unidentifiable mush,-,1,,PIN294gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Gracie,Pinfish,PIN296,PIN296gc,WO1,45792,mush,0.1,unidentifiable mush,-,1,,PIN296gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Cheyenne,Pinfish,PIN295,PIN295gc,WO1,45792,mush,0.1,unidentifiable mush,-,1,watery,PIN295gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Gracie,Pinfish,PIN297,PIN297gc,WO1,45792,mush,0.1,unidentifiable mush,-,1,,PIN297gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Cheyenne,Pinfish,PIN298,PIN298gc,WO1,45792,mush,0.1,unidentifiable mush,-,1,watery,PIN298gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Gracie,Pinfish,PIN299,PIN299gc,WO1,45792,mush,0.3,unidentifiable mush,-,1,,PIN299gc,0.3,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Gracie,Pinfish,PIN301,PIN301gc,WO1,45792,mush/biomatter,<0.1,biomatter,-,1,veg/,PIN301gc,0.05,biomatter,TRUE,West,Outer,1
+BOEM,45880,Cheyenne,Pinfish,PIN302,Pin302gc,WO1,45792,mush,<0.1,unidentifiable mush,-,1,watery,Pin302gc,0.05,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45880,Gracie,Striped Anchovy,STA356,STA356gc,WO2,45348,krill?,0.1,biomatter,-,1,,STA356gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45882,Gracie,Atlantic Bumper,ATB091,ATB091gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB091gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45882,Gracie,Atlantic Bumper,ATB093,ATB093gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB093gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45882,Gracie,Atlantic Bumper,ATB095,ATB095gc,WI1,45225,mush,<0.1,unidentifiable mush,-,1,,ATB095gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45902,Gracie,Atlantic Croaker,CRO212,CRO212gc,WO2,45895,mush + veg,0.1,biomatter,-,2,,CRO212gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO213,CRO213gc,WO2,45895,mush + veg,0.1,biomatter,-,1,,CRO213gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO214,CRO214gc,WO2,45895,mush + veg ,0.2,biomatter,-,2,,CRO214gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO215,CRO215gc1,WO2,45895,biomatter,0.4,biomatter,5,4,pic on microscope ,CRO215gc,0.4,biomatter,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO215,CRO215gc2,WO2,45895,polycheate,<0.1,polychaete,,,,CRO215gc,0.05,polychaete,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO215,CRO215gc3,WO2,45895,crustacean ,<0.1,crustacean,,,,CRO215gc,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO217,CRO217gc,WO2,45895,veg + mush ,<0.1,biomatter,-,1,,CRO217gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO218,CRO218gc1,WO2,45895,biomatter,<0.1,biomatter,2,4,,CRO218gc,0.05,biomatter,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO218,CRO218gc2,WO2,45895,crustacean ,<0.1,crustacean,,,,CRO218gc,0.05,crustacean,TRUE,West,Outer,2
+BOEM,45902,Gracie,Atlantic Croaker,CRO219,CRO219gc1,WO1,45895,biomatter,0.3,biomatter,1,4,pic,CRO219gc,0.3,biomatter,TRUE,West,Outer,1
+BOEM,45902,Gracie,Atlantic Croaker,CRO219,CRO219gc2,WO1,45895,crustacean ,0.3,crustacean,,,,CRO219gc,0.3,crustacean,TRUE,West,Outer,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO221,CRO221gc1,WI1,45895,crustacean ,0.2,crustcean,1,4,,CRO221gc,0.2,crustacean,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO221,CRO221gc2,WI1,45895,striped anchovy,0.7,striped anchovy,2,4,,CRO221gc,0.7,anchovy,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO223,CRO223gc,WI1,45895,green mush ,0.5,biomatter,-,1,,CRO223gc,0.5,biomatter,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO224,CRO224gc,WI1,45895,crustacean ,0.3,crustacean,1,3,,CRO224gc,0.3,crustacean,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO225,CRO225gc,WI1,45895,mush ,<0.1,unidentifiable mush,-,1,,CRO225gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO226,CRO226gc1,WI1,45895,crustacean ,0.1,crustacean,1,2,,CRO226gc,0.1,crustacean,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO226,CRO226gc2,WI1,45895,biomatter,<0.1,biomatter,-,1,,CRO226gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO227,CRO227gc1,WI1,45895,crustacean ,0.5,crustacean,2,3,,CRO227gc,0.5,crustacean,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO228,CRO228gc,WI1,45895,mush + veg + sand ,1.3,biomatter,-,1,,CRO228gc,1.3,biomatter,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO229,CRO229gc,WI1,45895,mush,<0.1,unidentifiable mush,-,1,,CRO229gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO230,CRO230gc1,WI1,45895,anchovy ,1.1,striped anchovy,2,5,,CRO230gc,1.1,anchovy,TRUE,West,Inner,1
+BOEM,45903,Gracie,Atlantic Croaker,CRO230,CRO230gc2,WI2,45895,snail ,0.1,mollusca,1,5,,CRO230gc,0.1,mollusca,TRUE,West,Inner,2
+BOEM,45904,Gracie,Atlantic Croaker,CRO232,CRO232gc,EI1,45894,mush ,0.1,unidentifiable mush,-,1,,CRO232gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO233,CRO233gc1,EI1,45894,mush,<0.1,unidentifiable mush,-,2,,CRO233gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO233,CRO233gc2,EI1,45894,crustacean,<0.1,crustacean,1,2,,CRO233gc,0.05,crustacean,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO235,CRO235gc,EI1,45894,mush ,<0.2,unidentifiable mush,-,1,,CRO235gc,0.1,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO237,CRO237gc,EI1,45894,mush ,<0.3,unidentifiable mush,-,1,,CRO237gc,0.15,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO239,CRO239gc,EI1,45894,mush ,<0.4,unidentifiable mush,-,1,,CRO239gc,0.2,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO240,CRO240gc,EI1,45894,biomatter,<0.5,biomatter,1,4,,CRO240gc,0.25,biomatter,TRUE,East,Inner,1
+BOEM,45904,Gracie,Atlantic Croaker,CRO241,CRO241gc,EI1,45894,mush ,<0.6,unidentifiable mush,- ,1,,CRO241gc,0.3,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45952,Gracie ,Pinfish,PIN303,PIN303gc,EO3,45894,fish eggs ,<0.1,biomatter,>100,4,"yes these are fish eggs probably, but maybe safer to say biomatter?",PIN303gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45952,Sam P,Pinfish,PIN304,PIN304gc,EO3,45894,fish eggs ,<0.1,biomatter,>100,4,,PIN304gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45952,Gracie ,Pinfish,PIN305,PIN305gc,EO3,45894,fish eggs ,0.3,biomatter,>100,4,,PIN305gc,0.3,biomatter,TRUE,East,Outer,3
+BOEM,45952,Sam P,Pinfish,PIN306,PIN306gc,EO3,45894,fish eggs ,<0.1,biomatter,>100,4,,PIN306gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45952,Gracie ,Pinfish,PIN307,PIN307gc,EO3,45894,fish eggs ,<0.1,biomatter,<50,4,,PIN307gc,0.05,biomatter,TRUE,East,Outer,3
+BOEM,45952,Sam P,Pinfish,PIN308,PIN308gc,EO3,45894,mush,<0.1,unidentifiable mush,-,1,,PIN308gc,0.05,unidentifiable mush,TRUE,East,Outer,3
+BOEM,45952,Gracie ,Pinfish,PIN309,PIN309gc,EO3,45894,"eggs, fish spine ",0.3,biomatter,50,3,,PIN309gc,0.3,biomatter,TRUE,East,Outer,3
+BOEM,45952,Sam P,Pinfish,PIN310,PIN310gc,EO3,45894,fish eggs ,0.2,biomatter,<100,4,,PIN310gc,0.2,biomatter,TRUE,East,Outer,3
+BOEM,45952,Gracie ,Pinfish,PIN311,PIN311gc,EO3,45894,fish eggs ,0.3,biomatter,>100,4,,PIN311gc,0.3,biomatter,TRUE,East,Outer,3
+BOEM,45952,Sam P,Pinfish,PIN312,PIN312gc,EO3,45894,fish eggs ,0.2,biomatter,>100,4,,PIN312gc,0.2,biomatter,TRUE,East,Outer,3
+BOEM,45952,Sam P,Pinfish,PIN314,PIN314gc,EO1,45894,fish bones + sand ,0.2,biomatter,1,2,,PIN314gc,0.2,biomatter,TRUE,East,Outer,1
+BOEM,45952,Sam P,Pinfish,PIN316,PIN316gc,EO1,45894,mush ,<0.1,unidentifiable mush,-,1,,PIN316gc,0.05,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45952,Sam P,Pinfish,PIN319,PIN319gc,EO1,45894,shell + sand ,0.4,detritus + maybe a shell,1,1,"if shell (cant tell by photo), needs to be seperated and weighed as a mollusc",PIN319gc,0.4,detritus,TRUE,East,Outer,1
+BOEM,45952,Gracie ,Pinfish,PIN320,PIN320gc,EO1,45894,shrimp+mush ,0.3,biomatter,10,4,,PIN320gc,0.3,biomatter,TRUE,East,Outer,1
+BOEM,45952,Sam P,Pinfish,PIN321,PIN321gc,EO1,45894,worm + shrimp,<0.1,biomatter,<50,2,check if these are polychaetes or should this just be biomatter? ,PIN321gc,0.05,biomatter,TRUE,East,Outer,1
+BOEM,45952,Sam P,Pinfish,PIN322,PIN322gc,EO1,45894,shrimp+mush ,0.4,biomatter,4,3,,PIN322gc,0.4,biomatter,TRUE,East,Outer,1
+BOEM,45955,Dalton,Pinfish,PIN323,PIN323gc,EI2,45894,shells,0.1,mollusca,3,4,,PIN323gc,0.1,mollusca,TRUE,East,Inner,2
+BOEM,45955,Dalton,Pinfish,PIN326,PIN326gc1,EI2,45894,biomatter,0.2,biomatter,2,4,,PIN326gc,0.2,biomatter,TRUE,East,Inner,2
+BOEM,45955,Dalton,Pinfish,PIN326,PIN326gc2,EI3,45895,mollusca,<0.1,molusca,2,2,,PIN326gc,0.05,mollusca,TRUE,East,Inner,3
+BOEM,45957,Sam P,Spot,SPO227,SPO227gc,WI1,45895,shrimp/mush,<0.1,biomatter,-,1,,SPO227gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45957,Sam P,Spot,SPO228,SPO228gc,WI1,45895,shrimp/mush,<0.1,biomatter,-,2,,SPO228gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45957,Sam P,Spot,SPO233,SPO233gc,WI1,45895,sand/eggs,<0.1,detritus,-,1,,SPO233gc,0.05,detritus,TRUE,West,Inner,1
+BOEM,45957,Sam P,Spot,SPO234,SPO234gc,WI1,45895,sand/eggs,<0.1,biomatter,-,1,,SPO234gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45959,Sam P,Pinfish,PIN330,PIN330gc,EI2,45894,shrimp/shells,0.2,biomatter,3,2,,PIN330gc,0.2,biomatter,TRUE,East,Inner,2
+BOEM,45959,Sam P,Pinfish,PIN331,PIN331gc,EI2,45894,squid?/shells,0.6,biomatter,4,3,,PIN331gc,0.6,biomatter,TRUE,East,Inner,2
+BOEM,45959,Sam P,Pinfish,PIN332,PIN332gc,EI2,45894,shells,0.1,biomatter,3,4,mush,PIN332gc,0.1,biomatter,TRUE,East,Inner,2
+BOEM,45959,Sam P,Pinfish,PIN333,PIN333gc,WI1,45895,shrimp/mush,<0.1,biomatter,-,1,vegetation ,PIN333gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45959,Sam P,Pinfish,PIN334,PIN334gc,EI1,45894,shrimp?,<0.1,biomatter,-,1,mush,PIN334gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45959,Sam P,Pinfish,PIN335,PIN335gc,EI1,45894,shell/fish?,0.2,biomatter,4,3,"cant tell whats going on here, is this mostly detritus or biomatter? ",PIN335gc,0.2,biomatter,TRUE,East,Inner,1
+BOEM,45959,Sam P,Pinfish,PIN337,PIN337gc,EI1,45894,shell,0.1,"biomatter, very weird bone thing",1,3,,PIN337gc,0.1,biomatter,TRUE,East,Inner,1
+BOEM,45961,Dalton,Pinfish,PIN339,PIN339gc,EI1,45894,shells/mush,<0.1,detritus,-,2,,PIN339gc,0.05,detritus,TRUE,East,Inner,1
+BOEM,45961,Dalton,Pinfish,PIN342,PIN342gc1,EI1,45894,biomatter,<0.1,biomatter,-,1,,PIN342gc,0.05,biomatter,TRUE,East,Inner,1
+BOEM,45962,Dalton,Pinfish,PIN343,PIN342gc2,EI2,45895,shells,<0.1,mollusca,1,4,,PIN342gc,0.05,mollusca,TRUE,East,Inner,2
+BOEM,45961,Dalton,Pinfish,PIN344,PIN344gc,WO2,45895,sand/mush,0.4,detritus,-,1,,PIN344gc,0.4,detritus,TRUE,West,Outer,2
+BOEM,45961,Dalton,Pinfish,PIN345,PIN345gc,WO2,45895,sand/mush,<0.1,detritus,-,1,,PIN345gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45961,Dalton,Pinfish,PIN346,PIN346gc,WO2,45895,mush,<0.1,unidentifiable mush,-,1,,PIN346gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN347,PIN347gc,WO2,45895,eggs,0.3,biomatter,>50,4,mush,PIN347gc,0.3,biomatter,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN348,PIN348gc,WO2,45895,eggs,0.3,biomatter,>50,4,mush,PIN348gc,0.3,biomatter,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN349,PIN349gc,WO2,45895,eggs,0.1,biomatter,>50,4,mush,PIN349gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN350,PIN350gc,WO2,45895,fish bone?,0.1,biomatter,-,2,,PIN350gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN351,PIN351gc,WO2,45895,eggs/sand,0.5,biomatter,>50,4,mush ,PIN351gc,0.5,biomatter,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN352,PIN352gc,WO2,45895,eggs,0.1,biomatter,>50,4,mush,PIN352gc,0.1,biomatter,TRUE,West,Outer,2
+BOEM,45964,Sam P,Pinfish,PIN355,PIN355gc,WO1,45895,shrimp,0.5,crustacean,>20,3,,PIN355gc,0.5,crustacean,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN357,PIN357gc,WO1,45895,shrimp,<0.1,biomatter,>10,2,mush,PIN357gc,0.05,biomatter,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN358,PIN358gc,WO1,45895,shrimp,0.7,crustacean,>20,3,,PIN358gc,0.7,crustacean,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN359,PIN359gc,WO1,45895,shrimp,0.5,biomattter,>20,3,,PIN359gc,0.5,biomatter,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN360,PIN360gc,WO1,45895,shrimp/mush,0.1,unidentifiable mush,-,1,acid + no pic,PIN360gc,0.1,unidentifiable mush,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN361,PIN361gc,WO1,45895,shells,<0.1,mollusca,2,4,tons of shells in intestines,PIN361gc,0.05,mollusca,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN362,PIN362gc,WO1,45895,shrimp,3.9,biomatter,>50,3,needs to be seperated,PIN362gc,3.9,biomatter,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN363,PIN363gc,WO1,45895,shrimp,0.6,biomatter,>20,3,,PIN363gc,0.6,biomatter,TRUE,West,Outer,1
+BOEM,45966,Sam P,Pinfish,PIN364,PIN364gc,WO1,45895,shrimp,0.2,biomatter,>20,2,,PIN364gc,0.2,biomatter,TRUE,West,Outer,1
+BOEM,45966,Gracie,Spot,SPO238,SPO238gc,EI1,45894,mush + sand ,0.1,detritus,-,1,,SPO238gc,0.1,detritus,TRUE,East,Inner,1
+BOEM,45966,Gracie,Spot,SPO239,SPO239gc,EI1,45894,mush + sand ,<0.1,detritus,-,1,,SPO239gc,0.05,detritus,TRUE,East,Inner,1
+BOEM,45966,Gracie,Spot,SPO240,SPO240gc,EI1,45894,mush + sand ,0.3,detritus,-,1,,SPO240gc,0.3,detritus,TRUE,East,Inner,1
+BOEM,45968,Dalton,Spot,SPO245,SPO245gc,EI1,45894,mush,<0.1,unidentifiable mush,-,1,,SPO245gc,0.05,unidentifiable mush,TRUE,East,Inner,1
+BOEM,45971,Sam P,Spot,SPO251,SPO251gc,WO2,45895,sand,<0.1,detritus,-,1,,SPO251gc,0.05,detritus,TRUE,West,Outer,2
+BOEM,45971,Gracie ,Weakfish,WEF059,WEF059gc,EI1,45894,mysid ,0.2,biomatter,>100,4,crustacean based but could have other things in it so biomatter,WEF059gc,0.2,biomatter,TRUE,East,Inner,1
+BOEM,45971,Sam P ,Weakfish,WEF062,WEF062gc,EI1,45894,mysid ,0.2,biomatter,>50,3,crustacean based but could have other things in it so biomatter,WEF062gc,0.2,biomatter,TRUE,East,Inner,1
+BOEM,45971,Gracie ,Weakfish,WEF063,WEF063gc,EI1,45894,shrimp mush ,0.7,biomatter,-,1,crustacean based but could have other things in it so biomatter,WEF063gc,0.7,biomatter,TRUE,East,Inner,1
+BOEM,45971,Sam P ,Atlantic Bumper,ATB101,ATB101gc,EI2,45894,mush ,0.1,unidentifiable mush,-,1,,ATB101gc,0.1,unidentifiable mush,TRUE,East,Inner,2
+BOEM,45971,Gracie ,Atlantic Bumper,ATB102,ATB102gc,EO1,45894,mush ,0.3,unidentifiable mush,-,1,,ATB102gc,0.3,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45971,Sam P ,Atlantic Bumper,ATB103,ATB103gc,EO1,45894,mysid,0.5,biomatter,>100,4,,ATB103gc,0.5,biomatter,TRUE,East,Outer,1
+BOEM,45971,Gracie ,Atlantic Bumper,ATB104,ATB104gc,EO1,45894,mush ,0.2,unidentifiable mush,-,1,,ATB104gc,0.2,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45971,Sam P,Atlantic Bumper,ATB105,ATB105gc,EO1,45894,mysid ,0.4,biomatter,>100,1,,ATB105gc,0.4,biomatter,TRUE,East,Outer,1
+BOEM,45971,Gracie ,Thread Herring,THH154,THH154gc,EO1,45894,mush ,0.1,unidentifiable mush,-,1,,THH154gc,0.1,unidentifiable mush,TRUE,East,Outer,1
+BOEM,45973,Sam P,Atlantic Bumper,ATB106,ATB106gc,WO2,45895,mysid,0.2,biomatter,>50,2,,ATB106gc,0.2,biomatter,TRUE,West,Outer,2
+BOEM,45973,Sam P,Atlantic Bumper,ATB107,ATB107gc,WI1,45895,mysid,<0.1,biomatter,>20,2,,ATB107gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45973,Sam P,Atlantic Bumper,ATB108,ATB108gc,WI1,45895,mysid,<0.1,biomatter,>20,1,,ATB108gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45973,Sam P,Atlantic Bumper,ATB109,ATB109gc,WI1,45895,mysid,<0.1,biomatter,>20,1,,ATB109gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45973,Sam P,Atlantic Bumper,ATB110,ATB110gc,WI1,45895,mush,<0.1,unidentifiable mush,-,1,,ATB110gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45973,Sam P,Thread Herring,THH155,THH156gc,WI1,45895,mush,<0.1,unidentifiable mush,-,1,,THH156gc,0.05,unidentifiable mush,TRUE,West,Inner,1
+BOEM,45973,Sam P,Moonfish,MOF113,MOF113gc,EI1,45894,shrimp,0.2,crustacean,>10,3,,MOF113gc,0.2,crustacean,TRUE,East,Inner,1
+BOEM,45973,Sam P,Moonfish,MOF115,MOF115gc,WO2,45895,shrimp,0.2,crustacean,>10,3,,MOF115gc,0.2,crustacean,TRUE,West,Outer,2
+BOEM,45975,Dalton,Moonfish,MOF116,MOF116gc,EI1,45894,shrimp larvae?,0.1,crustacean,-,2,,MOF116gc,0.1,crustacean,TRUE,East,Inner,1
+BOEM,45975,Dalton,Moonfish,MOF118,MOF118gc,EI1,45894,shrimp,<0.1,crustacean,>1,3,,MOF118gc,0.05,crustacean,TRUE,East,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF122,MOF122gc,WI1,45895,shrimp,0.3,biomatter,>50,3,,MOF122gc,0.3,biomatter,TRUE,West,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF123,MOF123gc,WI1,45895,shrimp,0.2,biomatter,>50,3,probably crustacean but cannot fully tell ,MOF123gc,0.2,biomatter,TRUE,West,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF124,MOF124gc,WI1,45895,shrimp,<0.1,biomatter,>20,3,crustacean based but could have other things in it so biomatter,MOF124gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF125,MOF125gc,WI1,45895,shrimp,0.1,biomatter,>20,3,^^ ,MOF125gc,0.1,biomatter,TRUE,West,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF129,MOF129gc,WI1,45895,shrimp,0.5,crustacean,>50,3,,MOF129gc,0.5,crustacean,TRUE,West,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF130,MOF130gc,WI1,45895,shrimp,0.3,crustacean,>50,3,,MOF130gc,0.3,crustacean,TRUE,West,Inner,1
+BOEM,45978,Sam P,Moonfish,MOF131,MOF131gc,WI1,45895,shrimp,0.1,crustacean,>20,3,,MOF131gc,0.1,crustacean,TRUE,West,Inner,1
+BOEM,45980,Gracie ,Striped Anchovy,STA375,STA375gc,WO2,45895,pink mush ,<0.1,unidentifiable mush,-,1,,STA375gc,0.05,unidentifiable mush,TRUE,West,Outer,2
+BOEM,45980,Sam P ,Striped Anchovy,STA385,STA385gc,WI1,45895,shrimp ,<0.1,biomatter,1,3,crustacean based ,STA385gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45980,Sam P ,Striped Anchovy,STA386,STA386gc,WI1,45895,mysid + mush ,0.1,biomatter,>100,2,,STA386gc,0.1,biomatter,TRUE,West,Inner,1
+BOEM,45980,Gracie,Striped Anchovy,STA387,STA387gc,WI1,45895,mysid ,<0.1,biomatter,>50 ,3,,STA387gc,0.05,biomatter,TRUE,West,Inner,1
+BOEM,45982,Dalton,Atlantic Bumper,ATB118,ATB118gc,WI2,45895,fish muscle?,0.1,biomatter,-,2,,ATB118gc,0.1,biomatter,TRUE,West,Inner,2

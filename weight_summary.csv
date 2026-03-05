@@ -1,0 +1,50 @@
+fish_species,prey_category_clean,mean_weight_g,median_weight_g,total_weight_g,n
+Atlantic Bumper,unidentifiable mush,0.12654320987654322,0.05,10.250000000000007,81
+Atlantic Bumper,biomatter,0.22812500000000002,0.2,3.65,16
+Atlantic Bumper,crustacean,0.25,0.15000000000000002,1.5000000000000002,6
+Atlantic Bumper,anchovy,1.2,1.2,1.2,1
+Atlantic Bumper,detritus,0.2,0.2,0.4,2
+Atlantic Croaker,polychaete,1.8538461538461541,0.1,24.1,13
+Atlantic Croaker,unidentifiable mush,0.16454545454545455,0.1,18.100000000000012,110
+Atlantic Croaker,biomatter,0.3038461538461539,0.1,11.850000000000003,39
+Atlantic Croaker,crustacean,0.20681818181818182,0.07500000000000001,4.549999999999998,22
+Atlantic Croaker,anchovy,0.9333333333333333,1,2.8,3
+Atlantic Croaker,mollusca,0.07,0.05,0.35,5
+Atlantic Croaker,detritus,0.05,0.05,0.1,2
+Lizardfish,anchovy,3.25,3.25,6.5,2
+Lizardfish,unidentifiable fish,6.4,6.4,6.4,1
+Lizardfish,biomatter,1.7499999999999998,0.1,5.249999999999999,3
+Lizardfish,crustacean,0.5333333333333333,0.4,1.6,3
+Lizardfish,unidentifiable mush,0.1,0.05,0.49999999999999994,5
+Moonfish,biomatter,0.21710526315789475,0.1,8.249999999999998,38
+Moonfish,crustacean,0.1625,0.1,3.2500000000000004,20
+Moonfish,unidentifiable mush,0.09999999999999999,0.1,2.8999999999999995,29
+Moonfish,detritus,0.1,0.1,0.1,1
+Pigfish,unidentifiable mush,0.3333333333333333,0.2,3,9
+Pigfish,mollusca,2,2,2,1
+Pigfish,biomatter,0.26666666666666666,0.2,0.8,3
+Pigfish,crustacean,0.3,0.3,0.3,1
+Pinfish,biomatter,0.25897435897435894,0.1,20.200000000000003,78
+Pinfish,unidentifiable mush,0.18370786516853935,0.1,16.35000000000001,89
+Pinfish,anchovy,1.3840000000000001,1.1,6.920000000000001,5
+Pinfish,mollusca,0.28076923076923077,0.05,3.6499999999999986,13
+Pinfish,detritus,0.21666666666666667,0.2,3.25,15
+Pinfish,crustacean,0.20416666666666666,0.1,2.45,12
+Pinfish,polychaete,0.05,0.05,0.2,4
+Pinfish,echinoderm,0.05,0.05,0.1,2
+Spot,unidentifiable mush,0.08916666666666667,0.05,5.349999999999995,60
+Spot,detritus,0.0875,0.05,2.7999999999999994,32
+Spot,biomatter,0.06818181818181819,0.05,0.7500000000000002,11
+Spot,crustacean,0.05,0.05,0.15000000000000002,3
+Spot,mollusca,0.05,0.05,0.05,1
+Striped Anchovy,unidentifiable mush,0.06633986928104577,0.05,10.150000000000013,153
+Striped Anchovy,biomatter,0.07916666666666666,0.05,0.9500000000000003,12
+Striped Anchovy,crustacean,0.2,0.2,0.6,3
+Striped Anchovy,detritus,0.1,0.1,0.1,1
+Thread Herring,unidentifiable mush,0.09444444444444446,0.05,9.34999999999999,99
+Thread Herring,anchovy,3.8,3.8,3.8,1
+Thread Herring,biomatter,0.2,0.2,0.2,1
+Thread Herring,detritus,0.2,0.2,0.2,1
+Weakfish,anchovy,6.9,6.9,13.8,2
+Weakfish,biomatter,0.8722222222222222,0.7,7.850000000000001,9
+Weakfish,unidentifiable mush,0.5272727272727272,0.1,5.799999999999999,11
