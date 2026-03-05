@@ -44,7 +44,7 @@ df <- df_raw %>%
 
 
 # ============================================================
-# 3. DROP ROWS WHERE PREY HASN'T BEEN ENTERED YET
+# 3. drop where i need to still identify 
 #
 # some rows have a blank Prey column because the data is still
 # being updated. this removes them for now so they don't interfere
