@@ -251,7 +251,7 @@ n_stomachs <- df_clean %>%
 
 foo <- df_clean %>%
   filter(!is.na(prey_category_clean)) %>%
-  # Group by INDIVIDUAL FISH (fish_id) to handle multi-prey stomachs correctly
+  # Group by INDIVIDUAL FISH (fish_id) to handle multi-prey stomachs 
   group_by(fish_species, fish_id) %>%
   # For each fish, get the unique set of prey categories found
   summarise(prey_cats = list(unique(prey_category_clean)), .groups = "drop") %>%

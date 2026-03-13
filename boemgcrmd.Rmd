@@ -7,12 +7,11 @@ date: "2026-03-06"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-install.packages('tidyverse')
+library(tidyverse)
 library(dplyr)
 library(stringr)
 library(tidyr)
 library(ggplot2)
-install.packages("vegan")
 library(vegan)
 
 ```
@@ -174,8 +173,10 @@ df <- df %>%
       prey_category_clean %in% c("biomattter", "biomatter, very weird bone thing")        ~ "biomatter",
       prey_category_clean == "polycheate"                                                  ~ "polychaete",
       prey_category_clean == "detritus + maybe a shell"                                    ~ "detritus",
-      prey_category_clean == "unidentifiable fish?"                                        ~ "unidentifiable fish",
+      prey_category_clean == "unidentifiable fish?"                                        ~ "biomatter",
+       prey_category_clean == "unidentifiable fish"                                        ~ "biomatter",
       prey_category_clean == "striped anchovy"                                             ~ "anchovy",
+      prey_category_clean == "veg_biomatter" ~ "veg_biomatter",
       TRUE ~ prey_category_clean
     )
   )
@@ -241,6 +242,103 @@ df_clean <- df_clean %>%
   )
 
 ```
+
+
+## weight data 
+```{r}
+# ============================================================
+# 5.5 CLEANING n_prey COLUMN
+#
+# Contains mixed values:
+#   "-", "", " " = not recorded --> NA
+#   "1?", "6?"   = uncertain counts --> take the number, flag uncertainty
+#   "~4"         = approximate --> take the number
+#   ">20", ">50" = minimum count --> use value as-is (conservative)
+#   "<20", "<50" = maximum count --> use value as-is (conservative)
+#   ">1"         = use 1
+#   "20+", ">20" = same thing --> use value
+#   "?"          = unknown --> NA
+#   numbers      = keep as-is
+#
+# n_prey_flag:
+#   "exact"       = recorded as a plain number
+#   "approximate" = recorded with ~ or ?
+#   "minimum"     = recorded as > or +  (true count is AT LEAST this)
+#   "maximum"     = recorded as <       (true count is AT MOST this)
+#   NA            = missing entirely
+# ============================================================
+df_clean <- df_clean %>%
+  mutate(
+    n_prey_raw = str_trim(as.character(n_prey)),
+    
+    n_prey_flag = case_when(
+      n_prey_raw %in% c("-", "", " ", "?")       ~ NA_character_,
+      str_detect(n_prey_raw, "^[0-9]+\\?$")       ~ "approximate",
+      str_detect(n_prey_raw, "^~")                ~ "approximate",
+      str_detect(n_prey_raw, "^>")                ~ "minimum",
+      str_detect(n_prey_raw, "^[0-9]+\\+$")       ~ "minimum",
+      str_detect(n_prey_raw, "^<")                ~ "maximum",
+      TRUE                                         ~ "exact"
+    ),
+    
+    n_prey_clean = case_when(
+      n_prey_raw %in% c("-", "", " ", "?")        ~ NA_real_,
+      str_detect(n_prey_raw, "^[0-9]+\\?$")        ~ as.numeric(str_remove(n_prey_raw, "\\?")),
+      str_detect(n_prey_raw, "^~")                 ~ as.numeric(str_remove(n_prey_raw, "~")),
+      str_detect(n_prey_raw, "^>")                 ~ as.numeric(str_remove(n_prey_raw, ">")),
+      str_detect(n_prey_raw, "^[0-9]+\\+$")        ~ as.numeric(str_remove(n_prey_raw, "\\+")),
+      str_detect(n_prey_raw, "^<")                 ~ as.numeric(str_remove(n_prey_raw, "<")),
+      TRUE                                          ~ suppressWarnings(as.numeric(n_prey_raw))
+    )
+  ) %>%
+  select(-n_prey_raw)
+
+# Sanity check - verify every raw value maps to expected flag + number
+df_clean %>% 
+  count(n_prey, n_prey_clean, n_prey_flag, sort = TRUE)
+
+# issues? 
+
+df_clean <- df_clean %>%
+  mutate(
+    collection_date = as.Date(collection_date, format = "%m/%d/%Y"),
+    # Fix century typos: 2093 --> 2023, 2094 --> 2024
+    collection_date = case_when(
+      format(collection_date, "%Y") == "2093" ~ collection_date - lubridate::years(70),
+      format(collection_date, "%Y") == "2094" ~ collection_date - lubridate::years(70),
+      TRUE ~ collection_date
+    )
+  )
+# How many stomachs had at least one identifiable prey per species
+identifiable_summary <- df_clean %>%
+  filter(!prey_category_clean %in% unidentifiable) %>%
+  group_by(fish_species) %>%
+  summarise(
+    n_stomachs_total      = n_distinct(fish_id),
+    n_with_identifiable   = n_distinct(fish_id[!is.na(prey_category_clean)]),
+    pct_with_identifiable = round((n_with_identifiable / n_stomachs_total) * 100, 1)
+  ) %>%
+  arrange(desc(pct_with_identifiable))
+
+print(identifiable_summary)
+
+# Breakdown of identifiable prey categories per species
+identifiable_breakdown <- df_clean %>%
+  filter(!prey_category_clean %in% unidentifiable) %>%
+  group_by(fish_species, prey_category_clean) %>%
+  summarise(
+    n_stomachs_with_prey = n_distinct(fish_id),
+    .groups = "drop"
+  ) %>%
+  left_join(n_stomachs, by = "fish_species") %>%
+  mutate(pct = round((n_stomachs_with_prey / n_stomachs_total) * 100, 1)) %>%
+  arrange(fish_species, desc(pct))
+
+print(identifiable_breakdown, n = 60)
+
+
+```
+
 
 ## frequency of occurance 
 
@@ -345,7 +443,7 @@ prey_colors <- c(
   "biomatter"           = "grey40",
   "crustacean"          = "#2196F3",
   "anchovy"             = "#FF5722",
-  "unidentifiable fish" = "#FF9800",
+  "veg_biomatter"       = "#FF9800",
   "polychaete"          = "#9C27B0",
   "mollusca"            = "#4CAF50",
   "detritus"            = "#795548",
@@ -419,27 +517,6 @@ print(p3)
 ggsave("diet_composition_proportional.png", p3, width = 11, height = 6, dpi = 300)
 
 
-# --- Plot 4: Identifiable prey FOO - stacked bar with actual % values ---
-p4_id <- foo_id %>%
-  ggplot(aes(
-    x    = reorder(fish_species, -n_stomachs_total),
-    y    = FOO_percent,
-    fill = prey_cats
-  )) +
-  geom_bar(stat = "identity", position = "stack") +
-  scale_fill_manual(values = prey_colors) +
-  labs(
-    title    = "Frequency of Occurrence - Identifiable Prey Only",
-    subtitle = "Mush, biomatter, and detritus excluded",
-    x = NULL, y = "% of Stomachs", fill = "Prey Category"
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-print(p4_id)
-ggsave("FOO_identifiable_only.png", p4_id, width = 11, height = 6, dpi = 300)
-
-
 # --- Plot 5: FOO by East vs West region ---
 # facet_wrap() makes a separate panel per species
 foo_region <- df_clean %>%
@@ -500,23 +577,10 @@ cat("\nDone! Output files written to working directory.\n")
 # 14. analyses
 # ============================================================
 
-
-#dropping LIZ bc its a major outlier 
+# Build prey matrix - Lizardfish excluded as outlier
 prey_matrix <- df_clean %>%
   filter(!is.na(prey_category_clean),
-         fish_species != "Lizardfish") %>%  # drop Lizardfish
-  mutate(present = 1) %>%
-  distinct(fish_id, fish_species, region, prey_category_clean, .keep_all = TRUE) %>%
-  pivot_wider(
-    id_cols     = c(fish_id, fish_species, region),
-    names_from  = prey_category_clean,
-    values_from = present,
-    values_fill = 0
-  )
-# Build a species matrix - one row per fish, one column per prey category
-# values = FOO (1 if that prey was present in that stomach, 0 if not)
-prey_matrix <- df_clean %>%
-  filter(!is.na(prey_category_clean)) %>%
+         fish_species != "Lizardfish") %>%
   mutate(present = 1) %>%
   distinct(fish_id, fish_species, region, prey_category_clean, .keep_all = TRUE) %>%
   pivot_wider(

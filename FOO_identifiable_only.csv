@@ -1,23 +1,31 @@
 fish_species,prey_cats,n_stomachs_with_prey,n_stomachs_total,FOO_percent
-Atlantic Bumper,crustacean,6,98,6.122448979591836
-Atlantic Bumper,anchovy,1,98,1.0204081632653061
-Atlantic Croaker,crustacean,21,168,12.5
-Atlantic Croaker,polychaete,13,168,7.738095238095238
-Atlantic Croaker,mollusca,5,168,2.976190476190476
-Atlantic Croaker,anchovy,3,168,1.7857142857142856
+Atlantic Bumper,crustacean,11,100,11
+Atlantic Bumper,anchovy,1,100,1
+Atlantic Bumper,veg_biomatter,1,100,1
+Atlantic Croaker,crustacean,30,173,17.341040462427745
+Atlantic Croaker,polychaete,20,173,11.560693641618498
+Atlantic Croaker,veg_biomatter,16,173,9.248554913294797
+Atlantic Croaker,mollusca,7,173,4.046242774566474
+Atlantic Croaker,anchovy,4,173,2.312138728323699
+Black Seabass,mollusca,1,2,50
 Lizardfish,crustacean,3,14,21.428571428571427
 Lizardfish,anchovy,2,14,14.285714285714285
-Lizardfish,unidentifiable fish,1,14,7.142857142857142
-Moonfish,crustacean,20,83,24.096385542168676
+Moonfish,crustacean,25,84,29.761904761904763
 Pigfish,crustacean,1,13,7.6923076923076925
 Pigfish,mollusca,1,13,7.6923076923076925
-Pinfish,mollusca,13,191,6.806282722513089
-Pinfish,crustacean,12,191,6.282722513089005
-Pinfish,anchovy,5,191,2.6178010471204187
-Pinfish,polychaete,4,191,2.094240837696335
-Pinfish,echinoderm,2,191,1.0471204188481675
-Spot,crustacean,3,108,2.7777777777777777
-Spot,mollusca,1,108,0.9259259259259258
-Striped Anchovy,crustacean,3,168,1.7857142857142856
-Thread Herring,anchovy,1,102,0.9803921568627451
-Weakfish,anchovy,2,20,10
+Pinfish,crustacean,25,201,12.437810945273633
+Pinfish,mollusca,19,201,9.45273631840796
+Pinfish,veg_biomatter,16,201,7.960199004975125
+Pinfish,anchovy,5,201,2.4875621890547266
+Pinfish,polychaete,5,201,2.4875621890547266
+Pinfish,echinoderm,3,201,1.4925373134328357
+Spot,crustacean,3,110,2.727272727272727
+Spot,mollusca,1,110,0.9090909090909091
+Spot,polychaete,1,110,0.9090909090909091
+Spot,veg_biomatter,1,110,0.9090909090909091
+Striped Anchovy,crustacean,3,169,1.7751479289940828
+Striped Anchovy,mollusca,1,169,0.591715976331361
+Thread Herring,anchovy,1,113,0.8849557522123894
+Weakfish,anchovy,4,30,13.333333333333334
+Weakfish,crustacean,2,30,6.666666666666667
+Weakfish,thread herring,1,30,3.3333333333333335
