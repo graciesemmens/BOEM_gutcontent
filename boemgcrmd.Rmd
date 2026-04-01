@@ -25,6 +25,11 @@ library(vegan)
 # 1. load data
 # ============================================================
 df_raw <- read.csv("BOEM_GC_Analysis(Sheet1).csv")
+# Define this early so it's available to all chunks
+unidentifiable <- c("unidentifiable mush", "biomatter", "detritus")
+n_stomachs <- df_clean %>%
+  group_by(fish_species) %>%
+  summarise(n_stomachs_total = n_distinct(fish_id), .groups = "drop")
 
 head(df_raw)
 #bc my computer is being ridiculous 
@@ -452,7 +457,7 @@ prey_colors <- c(
 
 # --- Plot 1: FOO stacked bar - mush excluded ---
 p1 <- foo %>%
-  filter(prey_cats != "Unidentifiable Mush") %>%
+  filter(prey_cats != "unidentifiable mush") %>%
   ggplot(aes(
     x    = reorder(fish_species, -n_stomachs_total),
     y    = FOO_percent,
