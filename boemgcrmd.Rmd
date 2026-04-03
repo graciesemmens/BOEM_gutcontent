@@ -13,6 +13,10 @@ library(stringr)
 library(tidyr)
 library(ggplot2)
 library(vegan)
+library(igraph)
+library(ggraph)
+library(tidygraph)
+library(circlize)
 
 ```
 
@@ -25,11 +29,6 @@ library(vegan)
 # 1. load data
 # ============================================================
 df_raw <- read.csv("BOEM_GC_Analysis(Sheet1).csv")
-# Define this early so it's available to all chunks
-unidentifiable <- c("unidentifiable mush", "biomatter", "detritus")
-n_stomachs <- df_clean %>%
-  group_by(fish_species) %>%
-  summarise(n_stomachs_total = n_distinct(fish_id), .groups = "drop")
 
 head(df_raw)
 #bc my computer is being ridiculous 
@@ -174,14 +173,17 @@ df <- df %>%
     prey_category_clean = str_trim(tolower(prey_category)),
     prey_category_clean = case_when(
       prey_category_clean %in% c("crustcacean", "crustcean", "crustacean based biomatter") ~ "crustacean",
-      prey_category_clean %in% c("mollusc", "molusca", "squid (mollusca)")                ~ "mollusca",
+      prey_category_clean %in% c("mollusc", "molusca", "squid (mollusca)", "squid")                ~ "mollusca",
       prey_category_clean %in% c("biomattter", "biomatter, very weird bone thing")        ~ "biomatter",
       prey_category_clean == "polycheate"                                                  ~ "polychaete",
       prey_category_clean == "detritus + maybe a shell"                                    ~ "detritus",
       prey_category_clean == "unidentifiable fish?"                                        ~ "biomatter",
        prey_category_clean == "unidentifiable fish"                                        ~ "biomatter",
       prey_category_clean == "striped anchovy"                                             ~ "anchovy",
+       prey_category_clean == "thread herring"                                             ~ "thread herring",
+       prey_category_clean == "cnidarian"                                             ~ "cnidarian",
       prey_category_clean == "veg_biomatter" ~ "veg_biomatter",
+      prey_category_clean %in% "synthetic material" ~ "synthetic material",
       TRUE ~ prey_category_clean
     )
   )
@@ -245,6 +247,7 @@ df_clean <- df_clean %>%
     ),
     station  = str_extract(site, "[0-9]+")
   )
+df_clean %>% count(site, position)
 
 ```
 
@@ -302,15 +305,13 @@ df_clean <- df_clean %>%
 df_clean %>% 
   count(n_prey, n_prey_clean, n_prey_flag, sort = TRUE)
 
-# issues? 
+# fixing year issues
 
 df_clean <- df_clean %>%
   mutate(
     collection_date = as.Date(collection_date, format = "%m/%d/%Y"),
-    # Fix century typos: 2093 --> 2023, 2094 --> 2024
     collection_date = case_when(
-      format(collection_date, "%Y") == "2093" ~ collection_date - lubridate::years(70),
-      format(collection_date, "%Y") == "2094" ~ collection_date - lubridate::years(70),
+      as.integer(format(collection_date, "%Y")) > 2026 ~ collection_date - lubridate::years(70),
       TRUE ~ collection_date
     )
   )
@@ -452,7 +453,11 @@ prey_colors <- c(
   "polychaete"          = "#9C27B0",
   "mollusca"            = "#4CAF50",
   "detritus"            = "#795548",
-  "echinoderm"          = "#E91E63"
+  "echinoderm"          = "#E91E63",
+  "synthetic material"  = "#FF0000",
+  "thread herring"      = "#FFFFE0",
+  "cnidarian"           = "#CBC3E3"
+  
 )
 
 # --- Plot 1: FOO stacked bar - mush excluded ---
@@ -573,6 +578,118 @@ cat("\nDone! Output files written to working directory.\n")
 
 ```
 
+##bipartite graph
+```{r}
+# ============================================================
+# PREDATOR-PREY NETWORK GRAPH
+# ============================================================
+# manually set node positions so labels have room
+predator_names <- unique(edges$from)
+prey_names     <- unique(edges$to)
+
+node_positions <- bind_rows(
+  tibble(
+    name = predator_names,
+    x    = 0,
+    y    = seq(0, 1, length.out = length(predator_names))
+  ),
+  tibble(
+    name = prey_names,
+    x    = 1,
+    y    = seq(0, 1, length.out = length(prey_names))
+  )
+)
+
+#creating nodes
+nodes <- node_positions %>%
+  mutate(type = name %in% predator_names)
+#create graph
+net <- tbl_graph(nodes = nodes, edges = edges, directed = TRUE)
+
+# use manual layout
+layout_manual <- create_layout(net, layout = "manual",
+                                x = nodes$x, y = nodes$y)
+
+p_network <- ggraph(layout_manual) +
+  geom_edge_link( ##creating lines
+    aes(width = weight, alpha = weight, color = prey_label),
+    lineend = "round"
+  ) + #scaling lines according to FOO
+  scale_edge_width(range = c(0.3, 3), name = "FOO (%)") +
+  scale_edge_alpha(range = c(0.2, 0.9), guide = "none") +
+  scale_edge_color_manual(values = prey_colors, name = "Prey category") +
+  geom_node_point(aes(shape = type), size = 4, color = "#333333") +
+  geom_node_text( #creating nodes in graph
+    aes(
+      label = name,
+      x     = x + ifelse(type == TRUE, -0.03, 0.03),
+      hjust = ifelse(type == TRUE, 1, 0)
+    ),
+    size  = 3.5,
+    color = "#333333"
+  ) +
+  scale_shape_manual(
+    values = c("TRUE" = 16, "FALSE" = 17),
+    labels = c("TRUE" = "Predator", "FALSE" = "Prey"),
+    name   = "Node type"
+  ) +
+  labs(
+    title    = "Predator–Prey Diet Network",
+    subtitle = "Edge width proportional to Frequency of Occurrence (%)\nIdentifiable prey only"
+  ) +
+  theme_graph(base_family = "sans") +
+  theme(
+    plot.title    = element_text(size = 14, face = "bold"),
+    plot.subtitle = element_text(size = 10, color = "grey40"),
+    legend.position = "right"
+  ) +
+  xlim(-0.4, 1.4)  # extra horizontal padding for labels
+
+p_network
+ggsave("predator_prey_network.png", p_network, width = 12, height = 9, dpi = 300)
+```
+##another kind of graph 
+```{r}
+# build color matrix explicitly because the other one isnt working grrrrr
+circos.clear()
+circos.par(
+  gap.after    = c(rep(3, nrow(chord_data) - 1), 15,
+                   rep(3, ncol(chord_data) - 1), 15),
+  start.degree = 150,
+  canvas.xlim  = c(-1.3, 1.3),  # more canvas room for labels
+  canvas.ylim  = c(-1.3, 1.3),
+  points.overflow.warning = FALSE
+)
+
+chordDiagram(
+  chord_data,
+  grid.col          = all_colors,
+  col               = chord_col_matrix,
+  transparency      = 0.3,
+  annotationTrack   = "grid",
+  preAllocateTracks = list(track.height = mm_h(4))
+)
+
+circos.trackPlotRegion(
+  track.index = 1,
+  panel.fun = function(x, y) {
+    sector.name <- get.cell.meta.data("sector.index")
+    xlim        <- get.cell.meta.data("xlim")
+    theta       <- mean(xlim)  
+    circos.text(
+      theta, 1.2,
+      sector.name,
+      facing     = "clockwise",
+      niceFacing = TRUE,
+      adj        = c(0, 0.5),
+      cex        = 0.65
+    )
+  },
+  bg.border = NA
+)
+
+circos.clear()
+```
 
 
 ##analysis 
@@ -584,28 +701,47 @@ cat("\nDone! Output files written to working directory.\n")
 
 # Build prey matrix - Lizardfish excluded as outlier
 prey_matrix <- df_clean %>%
-  filter(!is.na(prey_category_clean),
-         fish_species != "Lizardfish") %>%
+  filter(!is.na(prey_category_clean)) %>%
   mutate(present = 1) %>%
-  distinct(fish_id, fish_species, region, prey_category_clean, .keep_all = TRUE) %>%
+  distinct(fish_id, fish_species, region, collection_date, position, prey_category_clean, .keep_all = TRUE) %>%
   pivot_wider(
-    id_cols     = c(fish_id, fish_species, region),
+    id_cols     = c(fish_id, fish_species, region, collection_date, position),  # <-- add collection_date
     names_from  = prey_category_clean,
     values_from = present,
     values_fill = 0
   )
-
 # Pull out just the prey columns
 prey_cols <- prey_matrix %>%
-  select(-fish_id, -fish_species, -region)
+  select(-fish_id, -fish_species, -region, -collection_date, -position)  
 
 # PERMANOVA: does diet differ by species?
 adonis2(prey_cols ~ fish_species, data = prey_matrix, permutations = 999)
 
-# PERMANOVA: does diet differ by region (East vs West)?
-adonis2(prey_cols ~ region, data = prey_matrix %>% filter(!is.na(region)), 
+# PERMANOVA: does diet differ by region?
+adonis2(prey_cols ~ region, data = prey_matrix %>% filter(!is.na(region)), permutations = 999)
+
+# PERMANOVA: do fish caught on the same day have similar diets?
+adonis2(prey_cols ~ collection_date, data = prey_matrix %>% filter(!is.na(collection_date)), permutations = 999)
+
+#combined 
+adonis2(prey_cols ~ fish_species + collection_date, 
+        data = prey_matrix %>% filter(!is.na(collection_date)), 
         permutations = 999)
 
+# PERMANOVA: does diet differ by inner vs outer shoal position?
+adonis2(prey_cols ~ position, 
+        data = prey_matrix %>% filter(!is.na(position)), 
+        permutations = 999)
+
+# Combined: species + position
+adonis2(prey_cols ~ fish_species + position, 
+        data = prey_matrix %>% filter(!is.na(position)), 
+        permutations = 999)
+
+# Full model: species + region + position
+adonis2(prey_cols ~ fish_species + region + position, 
+        data = prey_matrix %>% filter(!is.na(position) & !is.na(region)), 
+        permutations = 999)
 ```
-
-
+**Interpertation**
+Diet composition differed significantly by fish species (PERMANOVA, F = 14.5, R² = 0.11, p = 0.001) and weakly by region (F = 2.84, R² = 0.003, p = 0.036), but not by shoal position (F = 1.96, p = 0.109) or collection date (F = 1.16, p = 0.314), suggesting that species identity is the primary driver of diet variation across the sampling area.
